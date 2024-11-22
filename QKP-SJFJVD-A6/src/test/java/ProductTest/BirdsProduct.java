@@ -1,12 +1,17 @@
 package ProductTest;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -110,10 +115,10 @@ public class BirdsProduct {
 			//Step 5:Click on "Sign in" link
 			driver.findElement(By.xpath("//a[contains(text(),'Sign In')]")).click();
 			//Step 5.1:Enter the User ID
-			driver.findElement(By.name("username")).sendKeys("Tom70");
+			driver.findElement(By.name("username")).sendKeys("Prashanth2507");
 			//Step 5.2:Enter the Password
 			driver.findElement(By.xpath("//input[@name='password']")).clear();
-			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Tom123");
+			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Prashanth@25");
 			//Step 5.3:Click on "Login" button
 			driver.findElement(By.cssSelector("input[value='Login']")).click();
 			
@@ -128,7 +133,7 @@ public class BirdsProduct {
 			test.log(Status.INFO,"Sign out Execution Started Succesful");
 			//Click on "Signout" Button
 			driver.findElement(By.linkText("Sign Out")).click();
-			test.log(Status.INFO,"Sign out Done Succesful");
+			test.log(Status.INFO,"Sign In Done Succesful");
 
 		}
 		
@@ -141,7 +146,7 @@ public class BirdsProduct {
 		}
 	
 	@Test
-	public void addFirstProduct()
+	public void addFirstProduct() throws IOException, InterruptedException
 	{
 		// Create the Test Information
 		test = report.createTest("addFirstProduct");
@@ -160,7 +165,17 @@ public class BirdsProduct {
 		driver.findElement(By.name("newOrder")).click();
 		test.log(Status.INFO,"Click on continue succesful");
 		driver.findElement(By.linkText("Confirm")).click();
+		Thread.sleep(2000);		
 		test.log(Status.INFO,"Bird Product Test-Amazon Parrot-Added Succesful");
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		
+		
+		File temp = ts.getScreenshotAs(OutputType.FILE);
+		
+		File perm = new File("./Screenshots/BirdsProductPaySlip1.png");
+		
+		FileHandler.copy(temp, perm);
+		test.log(Status.INFO,"Screenshot taken succesfully");
 	}
 	
 	@Test(dependsOnMethods = "addFirstProduct")
