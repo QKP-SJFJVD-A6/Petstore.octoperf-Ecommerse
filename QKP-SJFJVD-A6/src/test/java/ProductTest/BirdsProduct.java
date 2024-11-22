@@ -128,7 +128,7 @@ public class BirdsProduct {
 			test.log(Status.INFO,"Sign out Execution Started Succesful");
 			//Click on "Signout" Button
 			driver.findElement(By.linkText("Sign Out")).click();
-			test.log(Status.INFO,"Sign In Done Succesful");
+			test.log(Status.INFO,"Sign out Done Succesful");
 
 		}
 		

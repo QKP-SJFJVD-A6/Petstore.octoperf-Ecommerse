@@ -5,13 +5,14 @@
 		<parameter name="BrowserName" value="chrome"></parameter>
 		<classes>
 			<class name="ProductTest.Birdsproduct" />
+			<class name="ProductTest.FishProduct"/>
 		</classes> 
 	</test> <!--
 	Test -->
 
 
 	<test thread-count="5" name="Test2">
-		<parameter name="BrowserName" value="edge"></parameter>
+		<parameter name="BrowserName" value="chrome"></parameter>
 		<classes>
 			<class name="ProductTest.Birdsproduct" />
 		</classes>

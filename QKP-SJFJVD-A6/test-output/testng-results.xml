@@ -1,239 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
-    <line>
-      <![CDATA[Browser Launched Succesfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Launched Succesfully]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Execution Started Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Execution Started Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Bird Product Test-Amazon Parrot- Added Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign out  Stared Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Execution Started Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Bird Product Test-Amazon Parrot- Removed Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign out  Stared Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Bird Product Test-Amazon Parrot- Added Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign out  Stared Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Browser Terminated Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Execution Started Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign In Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Bird Product Test-Amazon Parrot- Removed Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Sign out  Stared Successful]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out Done Succesful]]>
-    </line>
-    <line>
-      <![CDATA[Browser Terminated Succesful]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-11-21T10:24:29 IST" name="Suite-Functionality" finished-at="2024-11-21T10:24:39 IST" duration-ms="9750">
+  <suite started-at="2024-11-22T12:19:42 IST" name="Default suite" finished-at="2024-11-22T12:19:42 IST" duration-ms="150">
     <groups>
     </groups>
-    <test started-at="2024-11-21T10:24:29 IST" name="Test1" finished-at="2024-11-21T10:24:37 IST" duration-ms="7222">
-      <class name="ProductTest.Birdsproduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:29 IST" name="browserSetup" finished-at="2024-11-21T10:24:31 IST" duration-ms="2025" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-11-22T12:19:42 IST" name="Default test" finished-at="2024-11-22T12:19:42 IST" duration-ms="150">
+      <class name="ProductTest.FishProduct">
+        <test-method is-config="true" signature="Suitesetup()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:41 IST" name="Suitesetup" finished-at="2024-11-22T12:19:42 IST" duration-ms="566" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Browser Launched Succesfully]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- Suitesetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="browserSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1732258182179" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:31 IST" name="signIn" finished-at="2024-11-21T10:24:34 IST" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="signIn" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Sign In Execution Started Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign In Done Succesful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:34 IST" name="addFirstProduct" finished-at="2024-11-21T10:24:34 IST" duration-ms="25" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="addProduct" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Bird Product Test-Amazon Parrot- Added Succesful]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:34 IST" name="signOut" finished-at="2024-11-21T10:24:35 IST" duration-ms="453" status="PASS">
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="signOut" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Sign out  Stared Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign Out Done Succesful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:35 IST" name="signIn" finished-at="2024-11-21T10:24:36 IST" duration-ms="1176" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="signIn" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Sign In Execution Started Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign In Done Succesful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="removeFirstProduct()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:36 IST" name="removeFirstProduct" finished-at="2024-11-21T10:24:36 IST" depends-on-methods="ProductTest.Birdsproduct.addFirstProduct" duration-ms="8" status="PASS">
+        <test-method signature="updateProduct()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="updateProduct" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1487368758\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Bird Product Test-Amazon Parrot- Removed Succesful]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- removeFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:36 IST" name="signOut" finished-at="2024-11-21T10:24:36 IST" duration-ms="524" status="PASS">
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="signOut" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Sign out  Stared Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign Out Done Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.Birdsproduct@795509d9]" started-at="2024-11-21T10:24:36 IST" name="browserTerminate" finished-at="2024-11-21T10:24:37 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Terminated Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserTerminate -->
-      </class> <!-- ProductTest.Birdsproduct -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-11-21T10:24:29 IST" name="Test2" finished-at="2024-11-21T10:24:39 IST" duration-ms="9750">
-      <class name="ProductTest.Birdsproduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:29 IST" name="browserSetup" finished-at="2024-11-21T10:24:34 IST" duration-ms="4458" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Launched Succesfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:34 IST" name="signIn" finished-at="2024-11-21T10:24:36 IST" duration-ms="2220" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign In Execution Started Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign In Done Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:36 IST" name="addFirstProduct" finished-at="2024-11-21T10:24:36 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Bird Product Test-Amazon Parrot- Added Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:36 IST" name="signOut" finished-at="2024-11-21T10:24:37 IST" duration-ms="695" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign out  Stared Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign Out Done Succesful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:37 IST" name="signIn" finished-at="2024-11-21T10:24:38 IST" duration-ms="1464" status="PASS">
+        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="broserTerminate" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Sign In Execution Started Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign In Done Succesful]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="removeFirstProduct()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:38 IST" name="removeFirstProduct" finished-at="2024-11-21T10:24:38 IST" depends-on-methods="ProductTest.Birdsproduct.addFirstProduct" duration-ms="4" status="PASS">
+        </test-method> <!-- broserTerminate -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.FishProduct@1972e513]" started-at="2024-11-22T12:19:42 IST" name="suiteTerminateSetup" finished-at="2024-11-22T12:19:42 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Bird Product Test-Amazon Parrot- Removed Succesful]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- removeFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:38 IST" name="signOut" finished-at="2024-11-21T10:24:39 IST" duration-ms="619" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign out  Stared Successful]]>
-            </line>
-            <line>
-              <![CDATA[Sign Out Done Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.Birdsproduct@59402b8f]" started-at="2024-11-21T10:24:39 IST" name="browserTerminate" finished-at="2024-11-21T10:24:39 IST" duration-ms="238" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Terminated Succesful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserTerminate -->
-      </class> <!-- ProductTest.Birdsproduct -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite-Functionality -->
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- ProductTest.FishProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
