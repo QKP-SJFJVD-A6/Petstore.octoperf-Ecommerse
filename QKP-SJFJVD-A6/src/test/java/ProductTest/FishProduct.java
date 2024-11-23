@@ -308,7 +308,7 @@ WebDriver driver;
 	{
 		
 		// Create the Test Information
-		test = report.createTest("updateProduct");
+		test = report.createTest("RemoveProduct");
 				
 		//Click on Fish
 		test.log(Status.INFO,"Click on Fish");
