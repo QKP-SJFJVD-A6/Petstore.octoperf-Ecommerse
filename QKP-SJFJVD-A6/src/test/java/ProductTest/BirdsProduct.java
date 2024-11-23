@@ -40,7 +40,7 @@ public class BirdsProduct {
 	@BeforeSuite
 	public void suiteSetup() {
 		// Create the SparkReport
-		spark = new ExtentSparkReporter("./AdvanceReports/report.html");
+		spark = new ExtentSparkReporter("./AdvanceReports/BirdsProductReport.html");
 
 		// Configure the sparkReport Information
 		spark.config().setDocumentTitle("Functionality Testing for Petstore");

@@ -40,7 +40,7 @@ WebDriver driver;
 	{
 		
 		//Create the sparkreport
-		 spark=new ExtentSparkReporter("./AdvanceReports/report.html");
+		 spark=new ExtentSparkReporter("./AdvanceReports/FishProductReport.html");
 				
 		//Configure the Sparkreport informtion
 				

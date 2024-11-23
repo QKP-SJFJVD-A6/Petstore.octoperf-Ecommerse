@@ -4,9 +4,8 @@
 	<test thread-count="5" name="Test1">
 		<parameter name="BrowserName" value="chrome"></parameter>
 		<classes>
-			<class name="ProductTest.Birdsproduct" />
-			<class name="ProductTest.FishProduct"/>
-		</classes> 
+			<class name="ProductTest.BirdsProduct" />
+		</classes>
 	</test> <!--
 	Test -->
 
@@ -14,7 +13,33 @@
 	<test thread-count="5" name="Test2">
 		<parameter name="BrowserName" value="chrome"></parameter>
 		<classes>
-			<class name="ProductTest.Birdsproduct" />
+			<class name="ProductTest.CatsProduct" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test thread-count="5" name="Test3">
+		<parameter name="BrowserName" value="chrome"></parameter>
+		<classes>
+			<class name="ProductTest.DogsProduct" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test thread-count="5" name="Test4">
+		<parameter name="BrowserName" value="chrome"></parameter>
+		<classes>
+			<class name="ProductTest.FishProduct" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Test5">
+		<parameter name="BrowserName" value="chrome"></parameter>
+		<classes>
+			<class name="ProductTest.ReptileProduct" />
 		</classes>
 	</test> <!--
 	Test -->

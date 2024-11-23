@@ -41,7 +41,7 @@ public class CatsProduct {
 	public void suiteSetup()
 	{
 		//cREATE THE SPARKREPORT
-		spark = new ExtentSparkReporter("./AdvanceReports/CatProductreport.html");
+		spark = new ExtentSparkReporter("./AdvanceReports/CatsProductReport.html");
 		
 		//Configure the SparkReport Information
 		spark.config().setDocumentTitle("Regression Testing for Birds Product");
