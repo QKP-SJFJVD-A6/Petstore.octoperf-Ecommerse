@@ -1,13 +1,18 @@
 package ProductTest;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -44,8 +49,8 @@ WebDriver driver;
 				
 		//Configure the Sparkreport informtion
 				
-		spark.config().setDocumentTitle("Functional Testing for the Learning Selenium page");
-		spark.config().setReportName("FunctionalSuite||updateProductVerify||addProductVerify");
+		spark.config().setDocumentTitle("Functional Testing for Petstore");
+		spark.config().setReportName("FunctionalSuite||updateProduct||addProduct");
 		spark.config().setTheme(Theme.STANDARD);
 				
 		//Create the Extent Report
@@ -73,7 +78,7 @@ WebDriver driver;
 	}
 	
 	
-	@Parameters("Browsername")
+	@Parameters("BrowserName")
 	@BeforeClass
 	public void browserSetup(String browser)
 	{
@@ -165,7 +170,7 @@ WebDriver driver;
 		test.log(Status.INFO,"Browser terminated succefully");
 	}
 	@Test 
-	public void addProduct() throws InterruptedException
+	public void addProduct() throws InterruptedException, IOException
 	{
 		
 		// Create the Test Information
@@ -219,10 +224,87 @@ WebDriver driver;
 		test.log(Status.INFO,"Read the order details Succefully");
 		Thread.sleep(2000);
 		
+		WebElement addProductpage = driver.findElement(By.xpath("//html[contains(@xmlns, '1999')]"));
+		File temp = addProductpage.getScreenshotAs(OutputType.FILE);
+		File perm = new File("./Screenshots/AddFishProduct.png");
+		FileHandler.copy(temp, perm);
+		test.log(Status.INFO,"Screenshot taken succesfully");
+		Thread.sleep(2000);
+		
 	}
 	
 	@Test
-	public void updateProduct() throws InterruptedException
+	public void updateProduct() throws InterruptedException, IOException
+	{
+		
+		// Create the Test Information
+		test = report.createTest("updateProduct");
+				
+		//Click on Fish
+		test.log(Status.INFO,"Click on Fish");
+		driver.findElement(By.xpath("//img[contains(@src, 'fish_icon')]")).click();
+		test.log(Status.INFO,"Click on Fish Succefully");
+				
+		//Click on Angelfish
+		test.log(Status.INFO,"Click on Angelfish");
+		driver.findElement(By.xpath("//a[contains(text(), 'FI-SW-01')]")).click();
+		test.log(Status.INFO,"Click on Angelfish Succefully");
+				
+		//Click on Add to Cart
+		test.log(Status.INFO,"Click on Add to Cart");
+		driver.findElement(By.xpath("(//a[contains(text(), 'Add to Cart')])[1]")).click();
+		test.log(Status.INFO,"Click on Add to Cart Succefully");
+				
+		//clear product Quantity
+		test.log(Status.INFO,"Click on clear product Quantity");
+		driver.findElement(By.xpath("(//input[@type='text'])[2]")).clear();
+		test.log(Status.INFO,"Click on clear product Quantity Succefully");
+				
+		//Add product Quantity
+		test.log(Status.INFO,"Click on Add product Quantity");
+		driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("20");
+		test.log(Status.INFO,"Click on Add product Quantity Succefully");
+				
+		
+		//Click on Update cart button
+		test.log(Status.INFO,"Click on Update cart button");
+		driver.findElement(By.name("updateCartQuantities")).click();
+		test.log(Status.INFO,"Click on Update cart button Succefully");
+		
+		//Click on Proceed to Checkout button
+		test.log(Status.INFO,"Click on Proceed to Checkout button");
+		driver.findElement(By.xpath("//a[contains(text(), 'Proceed')]")).click();
+		test.log(Status.INFO,"Click on Proceed to Checkout button Succefully");
+				
+		//Click on Continue button
+		test.log(Status.INFO,"Click on Continue button");
+		driver.findElement(By.name("newOrder")).click();
+		test.log(Status.INFO,"Click on Continue button Succefully");
+				
+		//click on Confirm button
+		test.log(Status.INFO,"Click on Confirm button");
+		driver.findElement(By.xpath("//a[contains(text(), 'Confirm')]")).click();
+		test.log(Status.INFO,"Click on Confirm button Succefully");
+				
+		Thread.sleep(2000);
+		//Read the order details
+		test.log(Status.INFO,"Read the order details");
+		WebElement tq = driver.findElement(By.xpath("//li[contains(text(), 'your order')]"));
+		Reporter.log(tq.getText());
+		test.log(Status.INFO,tq.getText());
+		test.log(Status.INFO,"Read the order details Succefully");
+		Thread.sleep(2000);
+				
+		WebElement updateCartpage = driver.findElement(By.xpath("//html[contains(@xmlns, '1999')]"));
+		File temp = updateCartpage.getScreenshotAs(OutputType.FILE);
+		File perm = new File("./Screenshots/UpdateFishProduct.png");
+		FileHandler.copy(temp, perm);
+		test.log(Status.INFO,"Screenshot taken succesfully");
+		Thread.sleep(2000);
+	}
+	
+	@Test
+	public void removeProduct() throws InterruptedException
 	{
 		
 		// Create the Test Information

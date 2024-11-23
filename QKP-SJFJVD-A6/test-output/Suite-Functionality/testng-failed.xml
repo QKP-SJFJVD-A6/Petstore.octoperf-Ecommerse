@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite-Functionality]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test4(failed)">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
     <parameter name="BrowserName" value="chrome"/>
     <classes>
-      <class name="ProductTest.FishProduct">
+      <class name="ProductTest.BirdsProduct">
         <methods>
-          <include name="addProduct"/>
-          <include name="browserSetup"/>
+          <include name="browserTerminate"/>
+          <include name="suiteSetup"/>
+          <include name="signin"/>
+          <include name="signout"/>
+          <include name="removeFirstProduct"/>
+          <include name="addFirstProduct"/>
           <include name="suiteTerminateSetup"/>
-          <include name="updateProduct"/>
-          <include name="Suitesetup"/>
-          <include name="broserTerminate"/>
-          <include name="signIn"/>
-          <include name="signOut"/>
+          <include name="browserSetup"/>
         </methods>
-      </class> <!-- ProductTest.FishProduct -->
+      </class> <!-- ProductTest.BirdsProduct -->
     </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- Test1(failed) -->
   <test thread-count="5" parallel="tests" name="Test5(failed)">
     <parameter name="BrowserName" value="chrome"/>
     <classes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="1" skipped="2">
+<testng-results ignored="0" total="11" passed="8" failed="1" skipped="2">
   <reporter-output>
     <line>
       <![CDATA[Browser Launched Successfully]]>
@@ -8,10 +8,10 @@
       <![CDATA[browser launched successfully]]>
     </line>
     <line>
-      <![CDATA[SignIn Execution Started]]>
+      <![CDATA[Sign In Execution Started Successfully]]>
     </line>
     <line>
-      <![CDATA[Sign In Execution Started Successfully]]>
+      <![CDATA[SignIn Execution Started]]>
     </line>
     <line>
       <![CDATA[Sign In Done Successfully]]>
@@ -27,12 +27,6 @@
     </line>
     <line>
       <![CDATA[Click the link to view the cat product ID successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Sign In done Succesfully]]>
-    </line>
-    <line>
-      <![CDATA[Adding Product Started Successfully]]>
     </line>
     <line>
       <![CDATA[The cat product has been successfully placed to the cart.]]>
@@ -53,7 +47,7 @@
       <![CDATA[Thank you, your order has been submitted.]]>
     </line>
     <line>
-      <![CDATA[ScreenShot saved at:C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
+      <![CDATA[ScreenShot saved at:C:\Users\lenovo\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
     </line>
     <line>
       <![CDATA[Sign Out started Successfully]]>
@@ -77,7 +71,13 @@
       <![CDATA[Clicking on the cats link was successful.]]>
     </line>
     <line>
+      <![CDATA[Sign In done Succesfully]]>
+    </line>
+    <line>
       <![CDATA[Click the link to view the cat product ID successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Adding Product Started Successfully]]>
     </line>
     <line>
       <![CDATA[The cat product has been successfully placed to the cart.]]>
@@ -101,13 +101,16 @@
       <![CDATA[Browser Terminated Successfully]]>
     </line>
     <line>
+      <![CDATA[Broser Terminated Successfully]]>
+    </line>
+    <line>
       <![CDATA[SignOut Done Successfully]]>
     </line>
     <line>
       <![CDATA[SignIn Execution Started]]>
     </line>
     <line>
-      <![CDATA[Broser Terminated Successfully]]>
+      <![CDATA[Thank you, your order has been submitted.]]>
     </line>
     <line>
       <![CDATA[Sign In done Succesfully]]>
@@ -121,139 +124,204 @@
     <line>
       <![CDATA[Broser Terminated Successfully]]>
     </line>
+    <line>
+      <![CDATA[Your cart is empty.]]>
+    </line>
+    <line>
+      <![CDATA[Thank you, your order has been submitted.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-11-23T10:28:38 IST" name="Suite-Functionality" finished-at="2024-11-23T10:29:06 IST" duration-ms="28066">
+  <suite started-at="2024-11-23T15:48:49 IST" name="Suite-Functionality" finished-at="2024-11-23T15:50:10 IST" duration-ms="81119">
     <groups>
     </groups>
-    <test started-at="2024-11-23T10:28:38 IST" name="Test4" finished-at="2024-11-23T10:28:38 IST" duration-ms="101">
-      <class name="ProductTest.FishProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="browserSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1732337918697" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2024-11-23T15:48:49 IST" name="Test1" finished-at="2024-11-23T15:49:27 IST" duration-ms="38026">
+      <class name="ProductTest.BirdsProduct">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:48:49 IST" name="browserSetup" finished-at="2024-11-23T15:48:54 IST" duration-ms="4765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="signIn" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="addProduct" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:48:54 IST" name="signin" finished-at="2024-11-23T15:49:27 IST" duration-ms="33137" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sign In')]"}
+  (Session info: chrome=123.0.6312.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.11.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef9ca2e671b69496c101b11f17d261a
+*** Element info: {Using=xpath, value=//a[contains(text(),'Sign In')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sign In')]"}
+  (Session info: chrome=123.0.6312.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.11.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef9ca2e671b69496c101b11f17d261a
+*** Element info: {Using=xpath, value=//a[contains(text(),'Sign In')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at ProductTest.BirdsProduct.signin(BirdsProduct.java:116)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="signOut" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="signIn" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="updateProduct()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="updateProduct" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
+        </test-method> <!-- signin -->
+        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:49:27 IST" name="addFirstProduct" finished-at="2024-11-23T15:49:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sign In')]"}
+  (Session info: chrome=123.0.6312.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.11.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef9ca2e671b69496c101b11f17d261a
+*** Element info: {Using=xpath, value=//a[contains(text(),'Sign In')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'Browsername' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sign In')]"}
+  (Session info: chrome=123.0.6312.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.11.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef9ca2e671b69496c101b11f17d261a
+*** Element info: {Using=xpath, value=//a[contains(text(),'Sign In')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at ProductTest.BirdsProduct.signin(BirdsProduct.java:116)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="signOut" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- addFirstProduct -->
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:49:27 IST" name="signout" finished-at="2024-11-23T15:49:27 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="broserTerminate" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- signout -->
+        <test-method signature="removeFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:49:27 IST" name="removeFirstProduct" finished-at="2024-11-23T15:49:27 IST" depends-on-methods="ProductTest.BirdsProduct.addFirstProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ProductTest.BirdsProduct.removeFirstProduct() on instance ProductTest.BirdsProduct@1040be71 depends on not successfully finished methods 
+[ProductTest.BirdsProduct.addFirstProduct() on instance ProductTest.BirdsProduct@1040be71]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ProductTest.BirdsProduct.removeFirstProduct() on instance ProductTest.BirdsProduct@1040be71 depends on not successfully finished methods 
+[ProductTest.BirdsProduct.addFirstProduct() on instance ProductTest.BirdsProduct@1040be71]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- broserTerminate -->
-      </class> <!-- ProductTest.FishProduct -->
-    </test> <!-- Test4 -->
-    <test started-at="2024-11-23T10:28:38 IST" name="Test2" finished-at="2024-11-23T10:28:54 IST" duration-ms="15409">
+        </test-method> <!-- removeFirstProduct -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:49:27 IST" name="browserTerminate" finished-at="2024-11-23T15:49:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
+      </class> <!-- ProductTest.BirdsProduct -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-11-23T15:48:49 IST" name="Test2" finished-at="2024-11-23T15:49:35 IST" duration-ms="45972">
       <class name="ProductTest.CatsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:38 IST" name="browserSetup" finished-at="2024-11-23T10:28:42 IST" duration-ms="4270" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:48:49 IST" name="browserSetup" finished-at="2024-11-23T15:48:55 IST" duration-ms="5914" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,7 +335,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:42 IST" name="signIn" finished-at="2024-11-23T10:28:45 IST" duration-ms="2681" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:48:55 IST" name="signIn" finished-at="2024-11-23T15:49:22 IST" duration-ms="27183" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign In Execution Started Successfully]]>
@@ -277,7 +345,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:45 IST" name="addFirstProduct" finished-at="2024-11-23T10:28:48 IST" duration-ms="2916" status="PASS">
+        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:22 IST" name="addFirstProduct" finished-at="2024-11-23T15:49:26 IST" duration-ms="3879" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[----------------ADD PRODUCT----------------]]>
@@ -310,11 +378,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
               <![CDATA[Thank you, your order has been submitted.]]>
             </line>
             <line>
-              <![CDATA[ScreenShot saved at:C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
+              <![CDATA[ScreenShot saved at:C:\Users\lenovo\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:48 IST" name="signOut" finished-at="2024-11-23T10:28:49 IST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:26 IST" name="signOut" finished-at="2024-11-23T15:49:27 IST" duration-ms="815" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign Out started Successfully]]>
@@ -324,7 +392,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:49 IST" name="signIn" finished-at="2024-11-23T10:28:51 IST" duration-ms="1881" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:27 IST" name="signIn" finished-at="2024-11-23T15:49:29 IST" duration-ms="2002" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign In Execution Started Successfully]]>
@@ -334,7 +402,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:51 IST" name="removeProduct" finished-at="2024-11-23T10:28:53 IST" depends-on-methods="ProductTest.CatsProduct.addFirstProduct" duration-ms="2302" status="PASS">
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:29 IST" name="removeProduct" finished-at="2024-11-23T15:49:31 IST" depends-on-methods="ProductTest.CatsProduct.addFirstProduct" duration-ms="2285" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[----------------REMOVE PRODUCT----------------]]>
@@ -362,7 +430,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:53 IST" name="signOut" finished-at="2024-11-23T10:28:53 IST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:31 IST" name="signOut" finished-at="2024-11-23T15:49:32 IST" duration-ms="587" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign Out started Successfully]]>
@@ -372,7 +440,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:53 IST" name="browserTerminate" finished-at="2024-11-23T10:28:54 IST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:49:32 IST" name="browserTerminate" finished-at="2024-11-23T15:49:35 IST" duration-ms="3217" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Terminated Successfully]]>
@@ -381,52 +449,9 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- browserTerminate -->
       </class> <!-- ProductTest.CatsProduct -->
     </test> <!-- Test2 -->
-    <test started-at="2024-11-23T10:28:38 IST" name="Test1" finished-at="2024-11-23T10:28:55 IST" duration-ms="16677">
-      <class name="ProductTest.BirdsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:38 IST" name="browserSetup" finished-at="2024-11-23T10:28:42 IST" duration-ms="4283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:42 IST" name="signin" finished-at="2024-11-23T10:28:45 IST" duration-ms="2605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:45 IST" name="addFirstProduct" finished-at="2024-11-23T10:28:50 IST" duration-ms="4518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:50 IST" name="signout" finished-at="2024-11-23T10:28:50 IST" duration-ms="626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signout -->
-        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:50 IST" name="signin" finished-at="2024-11-23T10:28:52 IST" duration-ms="1717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method signature="removeFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:52 IST" name="removeFirstProduct" finished-at="2024-11-23T10:28:53 IST" depends-on-methods="ProductTest.BirdsProduct.addFirstProduct" duration-ms="1352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeFirstProduct -->
-        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:53 IST" name="signout" finished-at="2024-11-23T10:28:54 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:54 IST" name="browserTerminate" finished-at="2024-11-23T10:28:55 IST" duration-ms="967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTerminate -->
-      </class> <!-- ProductTest.BirdsProduct -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-11-23T10:28:38 IST" name="Test3" finished-at="2024-11-23T10:29:03 IST" duration-ms="25081">
+    <test started-at="2024-11-23T15:48:49 IST" name="Test3" finished-at="2024-11-23T15:49:42 IST" duration-ms="52597">
       <class name="ProductTest.DogsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:38 IST" name="browserSetup" finished-at="2024-11-23T10:28:42 IST" duration-ms="4117" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:48:49 IST" name="browserSetup" finished-at="2024-11-23T15:48:53 IST" duration-ms="3982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -437,31 +462,31 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:42 IST" name="signIn" finished-at="2024-11-23T10:28:46 IST" duration-ms="3685" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:48:53 IST" name="signIn" finished-at="2024-11-23T15:49:23 IST" duration-ms="29869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:46 IST" name="addProduct" finished-at="2024-11-23T10:28:58 IST" duration-ms="11599" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:23 IST" name="addProduct" finished-at="2024-11-23T15:49:35 IST" duration-ms="11897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:58 IST" name="signOut" finished-at="2024-11-23T10:28:59 IST" duration-ms="922" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:35 IST" name="signOut" finished-at="2024-11-23T15:49:36 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:59 IST" name="signIn" finished-at="2024-11-23T10:29:00 IST" duration-ms="1726" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:36 IST" name="signIn" finished-at="2024-11-23T15:49:37 IST" duration-ms="1878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:29:00 IST" name="removeProduct" finished-at="2024-11-23T10:29:02 IST" depends-on-methods="ProductTest.DogsProduct.addProduct" duration-ms="2058" status="PASS">
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:37 IST" name="removeProduct" finished-at="2024-11-23T15:49:39 IST" depends-on-methods="ProductTest.DogsProduct.addProduct" duration-ms="2095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:29:02 IST" name="signOut" finished-at="2024-11-23T10:29:03 IST" duration-ms="644" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:39 IST" name="signOut" finished-at="2024-11-23T15:49:40 IST" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:29:03 IST" name="terminateBrowser" finished-at="2024-11-23T10:29:03 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:49:40 IST" name="terminateBrowser" finished-at="2024-11-23T15:49:42 IST" duration-ms="1610" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Broser Terminated Successfully]]>
@@ -470,49 +495,49 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- terminateBrowser -->
       </class> <!-- ProductTest.DogsProduct -->
     </test> <!-- Test3 -->
-    <test started-at="2024-11-23T10:28:38 IST" name="Test5" finished-at="2024-11-23T10:29:06 IST" duration-ms="28066">
+    <test started-at="2024-11-23T15:48:49 IST" name="Test5" finished-at="2024-11-23T15:49:50 IST" duration-ms="61218">
       <class name="ProductTest.FishProduct">
-        <test-method is-config="true" signature="Suitesetup()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:28:38 IST" name="Suitesetup" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Suitesetup()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:48:49 IST" name="Suitesetup" finished-at="2024-11-23T15:48:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Suitesetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.FishProduct@1040be71]" started-at="2024-11-23T10:29:07 IST" name="suiteTerminateSetup" finished-at="2024-11-23T10:29:07 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:50:11 IST" name="suiteTerminateSetup" finished-at="2024-11-23T15:50:11 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
       </class> <!-- ProductTest.FishProduct -->
       <class name="ProductTest.CatsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:28:38 IST" name="suiteSetup" finished-at="2024-11-23T10:28:38 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:48:49 IST" name="suiteSetup" finished-at="2024-11-23T15:48:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@17fc391b]" started-at="2024-11-23T10:29:07 IST" name="suiteTerminateSetup" finished-at="2024-11-23T10:29:07 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@dc7df28]" started-at="2024-11-23T15:50:11 IST" name="suiteTerminateSetup" finished-at="2024-11-23T15:50:11 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
       </class> <!-- ProductTest.CatsProduct -->
       <class name="ProductTest.DogsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:28:38 IST" name="suiteSetup" finished-at="2024-11-23T10:28:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:48:49 IST" name="suiteSetup" finished-at="2024-11-23T15:48:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.DogsProduct@792b749c]" started-at="2024-11-23T10:29:07 IST" name="suiteTerminateSetup" finished-at="2024-11-23T10:29:07 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-23T15:50:11 IST" name="suiteTerminateSetup" finished-at="2024-11-23T15:50:11 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
       </class> <!-- ProductTest.DogsProduct -->
       <class name="ProductTest.BirdsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:28:38 IST" name="suiteSetup" finished-at="2024-11-23T10:28:38 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:48:48 IST" name="suiteSetup" finished-at="2024-11-23T15:48:49 IST" duration-ms="1077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.BirdsProduct@4b013c76]" started-at="2024-11-23T10:29:06 IST" name="suiteTerminateSetup" finished-at="2024-11-23T10:29:07 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.BirdsProduct@1040be71]" started-at="2024-11-23T15:50:10 IST" name="suiteTerminateSetup" finished-at="2024-11-23T15:50:11 IST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
       </class> <!-- ProductTest.BirdsProduct -->
       <class name="ProductTest.ReptileProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:28:38 IST" name="browserSetup" finished-at="2024-11-23T10:28:42 IST" duration-ms="4117" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:48:49 IST" name="browserSetup" finished-at="2024-11-23T15:48:56 IST" duration-ms="6906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -526,7 +551,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:28:42 IST" name="signIn" finished-at="2024-11-23T10:28:46 IST" duration-ms="3651" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:48:56 IST" name="signIn" finished-at="2024-11-23T15:49:30 IST" duration-ms="33742" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignIn Execution Started]]>
@@ -536,7 +561,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:28:46 IST" name="addProduct" finished-at="2024-11-23T10:29:01 IST" duration-ms="15159" status="FAIL">
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:30 IST" name="addProduct" finished-at="2024-11-23T15:49:44 IST" duration-ms="14086" status="FAIL">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[.\TakeScreenshot\DogProduct.png (The system cannot find the path specified)]]>
@@ -544,16 +569,14 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             <full-stacktrace>
               <![CDATA[java.io.FileNotFoundException: .\TakeScreenshot\DogProduct.png (The system cannot find the path specified)
 at java.base/java.io.FileOutputStream.open0(Native Method)
-at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
-at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
-at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
 at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
 at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
 at ProductTest.ReptileProduct.addProduct(ReptileProduct.java:153)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -562,16 +585,16 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.io.FileNotFoundException -->
@@ -581,14 +604,14 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:29:01 IST" name="signOut" finished-at="2024-11-23T10:29:02 IST" duration-ms="637" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:44 IST" name="signOut" finished-at="2024-11-23T15:49:44 IST" duration-ms="495" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignOut Done Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:29:02 IST" name="signIn" finished-at="2024-11-23T10:29:04 IST" duration-ms="1971" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:44 IST" name="signIn" finished-at="2024-11-23T15:49:46 IST" duration-ms="1751" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignIn Execution Started]]>
@@ -598,21 +621,21 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:29:04 IST" name="removeProduct" finished-at="2024-11-23T10:29:06 IST" duration-ms="1798" status="PASS">
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:46 IST" name="removeProduct" finished-at="2024-11-23T15:49:48 IST" duration-ms="1968" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Add Product Removed Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:29:06 IST" name="signOut" finished-at="2024-11-23T10:29:06 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:48 IST" name="signOut" finished-at="2024-11-23T15:49:49 IST" duration-ms="618" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignOut Done Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.ReptileProduct@533bda92]" started-at="2024-11-23T10:29:06 IST" name="terminateBrowser" finished-at="2024-11-23T10:29:06 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.ReptileProduct@6b09fb41]" started-at="2024-11-23T15:49:49 IST" name="terminateBrowser" finished-at="2024-11-23T15:49:50 IST" duration-ms="1589" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Broser Terminated Successfully]]>
@@ -621,5 +644,69 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- terminateBrowser -->
       </class> <!-- ProductTest.ReptileProduct -->
     </test> <!-- Test5 -->
+    <test started-at="2024-11-23T15:48:49 IST" name="Test4" finished-at="2024-11-23T15:50:10 IST" duration-ms="81118">
+      <class name="ProductTest.FishProduct">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:48:49 IST" name="browserSetup" finished-at="2024-11-23T15:48:55 IST" duration-ms="6059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:48:55 IST" name="signIn" finished-at="2024-11-23T15:49:40 IST" duration-ms="44689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:40 IST" name="addProduct" finished-at="2024-11-23T15:49:49 IST" duration-ms="9052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you, your order has been submitted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:49 IST" name="signOut" finished-at="2024-11-23T15:49:50 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:50 IST" name="signIn" finished-at="2024-11-23T15:49:51 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:51 IST" name="removeProduct" finished-at="2024-11-23T15:49:57 IST" duration-ms="5909" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Your cart is empty.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:57 IST" name="signOut" finished-at="2024-11-23T15:49:57 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:57 IST" name="signIn" finished-at="2024-11-23T15:49:59 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="updateProduct()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:49:59 IST" name="updateProduct" finished-at="2024-11-23T15:50:09 IST" duration-ms="9739" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you, your order has been submitted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:50:09 IST" name="signOut" finished-at="2024-11-23T15:50:09 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:ProductTest.FishProduct@7a6d7e92]" started-at="2024-11-23T15:50:09 IST" name="broserTerminate" finished-at="2024-11-23T15:50:10 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserTerminate -->
+      </class> <!-- ProductTest.FishProduct -->
+    </test> <!-- Test4 -->
   </suite> <!-- Suite-Functionality -->
 </testng-results>

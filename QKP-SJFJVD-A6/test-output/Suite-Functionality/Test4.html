@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test4</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 23 10:28:38 IST 2024</td>
+<td>Started on:</td><td>Sat Nov 23 15:48:49 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (101 ms)</td>
+<tr><td>Total time:</td><td>81 seconds (81118 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,150 +76,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ProductTest.FishProduct.browserSetup()'><b>browserSetup</b><br>Test class: ProductTest.FishProduct</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace121817616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace121817616'><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>-1732337918</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='ProductTest.FishProduct.signIn()'><b>signIn</b><br>Test class: ProductTest.FishProduct</td>
+<td title='ProductTest.FishProduct.removeProduct()'><b>removeProduct</b><br>Test class: ProductTest.FishProduct<br/>
+<a href="#Output-117403096" onClick='toggleBox("Output-117403096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117403096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117403096">
+Your cart is empty.<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
+<td>5</td>
+<td>ProductTest.FishProduct@7a6d7e92</td></tr>
 <tr>
-<td title='ProductTest.FishProduct.broserTerminate()'><b>broserTerminate</b><br>Test class: ProductTest.FishProduct</td>
+<td title='ProductTest.FishProduct.updateProduct()'><b>updateProduct</b><br>Test class: ProductTest.FishProduct<br/>
+<a href="#Output-686015293" onClick='toggleBox("Output-686015293", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-686015293" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-686015293">
+Thank you, your order has been submitted.<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
+<td>9</td>
+<td>ProductTest.FishProduct@7a6d7e92</td></tr>
 <tr>
-<td title='ProductTest.FishProduct.signOut()'><b>signOut</b><br>Test class: ProductTest.FishProduct</td>
+<td title='ProductTest.FishProduct.addProduct()'><b>addProduct</b><br>Test class: ProductTest.FishProduct<br/>
+<a href="#Output-1352613712" onClick='toggleBox("Output-1352613712", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1352613712" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1352613712">
+Thank you, your order has been submitted.<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
-<tr>
-<td title='ProductTest.FishProduct.signIn()'><b>signIn</b><br>Test class: ProductTest.FishProduct</td>
-<td></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
-<tr>
-<td title='ProductTest.FishProduct.signOut()'><b>signOut</b><br>Test class: ProductTest.FishProduct</td>
-<td></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='ProductTest.FishProduct.addProduct()'><b>addProduct</b><br>Test class: ProductTest.FishProduct</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1641432100", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1641432100'><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
-<tr>
-<td title='ProductTest.FishProduct.updateProduct()'><b>updateProduct</b><br>Test class: ProductTest.FishProduct</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1272257955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1272257955'><pre>org.testng.TestNGException: 
-Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>0</td>
-<td>ProductTest.FishProduct@1040be71</td></tr>
+<td>9</td>
+<td>ProductTest.FishProduct@7a6d7e92</td></tr>
 </table><p>
 </body>
 </html>
