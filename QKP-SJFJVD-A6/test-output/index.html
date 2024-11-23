@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite_Functionality" class="navigator-link ">
-                    <span>C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml</span>
+                    <span>C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 2 failed,  2 skipped,  6 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,  2 skipped,  7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,11 +104,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.ReptileProduct" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.DogsProduct" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite_Functionality -->
@@ -151,6 +146,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.DogsProduct" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.BirdsProduct" class="method navigator-link" hash-for-method="removeFirstProduct">removeFirstProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -161,12 +161,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.ReptileProduct" class="method navigator-link" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.DogsProduct" class="method navigator-link" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.DogsProduct" class="method navigator-link" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite_Functionality" title="ProductTest.ReptileProduct" class="method navigator-link" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite_Functionality -->
@@ -204,37 +204,7 @@
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_Functionality-class-failed -->
-          <div class="suite-Suite_Functionality-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">ProductTest.DogsProduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addProduct">
-                  </a> <!-- addProduct -->
-                  <span class="method-name">addProduct</span>
-                  <div class="stack-trace">java.io.FileNotFoundException: .\TestScreenshots\DogProduct.png (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:235)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:184)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
-	at ProductTest.DogsProduct.addProduct(DogsProduct.java:154)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 17 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -254,12 +224,12 @@
                   <span class="method-name">addProduct</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
+in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 12 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -271,12 +241,12 @@ in C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTes
                   <span class="method-name">updateProduct</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;Browsername&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
+in C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 12 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -294,6 +264,43 @@ in C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTes
                   <a name="addFirstProduct">
                   </a> <!-- addFirstProduct -->
                   <span class="method-name">addFirstProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProduct">
+                  </a> <!-- removeProduct -->
+                  <span class="method-name">removeProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_Functionality-class-passed -->
+          <div class="suite-Suite_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ProductTest.ReptileProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProduct">
+                  </a> <!-- removeProduct -->
+                  <span class="method-name">removeProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_Functionality-class-passed -->
+          <div class="suite-Suite_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ProductTest.DogsProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct">
+                  </a> <!-- addProduct -->
+                  <span class="method-name">addProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -327,40 +334,10 @@ in C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTes
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite_Functionality-class-passed -->
-          <div class="suite-Suite_Functionality-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ProductTest.ReptileProduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeProduct">
-                  </a> <!-- removeProduct -->
-                  <span class="method-name">removeProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_Functionality-class-passed -->
-          <div class="suite-Suite_Functionality-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ProductTest.DogsProduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeProduct">
-                  </a> <!-- removeProduct -->
-                  <span class="method-name">removeProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_Functionality-class-passed -->
         </div> <!-- panel Suite_Functionality -->
         <div panel-name="test-xml-Suite_Functionality" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml</span>
+            <span class="header-content">C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\FunctionalityTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -450,48 +427,48 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addProduct')
 data.setCell(0, 2, 'ProductTest.ReptileProduct')
-data.setCell(0, 3, 13942);
+data.setCell(0, 3, 15159);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addProduct')
 data.setCell(1, 2, 'ProductTest.DogsProduct')
-data.setCell(1, 3, 13721);
+data.setCell(1, 3, 11599);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addFirstProduct')
 data.setCell(2, 2, 'ProductTest.BirdsProduct')
-data.setCell(2, 3, 4815);
+data.setCell(2, 3, 4518);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addFirstProduct')
 data.setCell(3, 2, 'ProductTest.CatsProduct')
-data.setCell(3, 3, 3124);
+data.setCell(3, 3, 2916);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'removeProduct')
-data.setCell(4, 2, 'ProductTest.DogsProduct')
-data.setCell(4, 3, 1979);
+data.setCell(4, 2, 'ProductTest.CatsProduct')
+data.setCell(4, 3, 2302);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'removeProduct')
-data.setCell(5, 2, 'ProductTest.ReptileProduct')
-data.setCell(5, 3, 1975);
+data.setCell(5, 2, 'ProductTest.DogsProduct')
+data.setCell(5, 3, 2058);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'removeProduct')
-data.setCell(6, 2, 'ProductTest.CatsProduct')
-data.setCell(6, 3, 1878);
+data.setCell(6, 2, 'ProductTest.ReptileProduct')
+data.setCell(6, 3, 1798);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'removeFirstProduct')
 data.setCell(7, 2, 'ProductTest.BirdsProduct')
-data.setCell(7, 3, 1424);
+data.setCell(7, 3, 1352);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'updateProduct')
+data.setCell(8, 1, 'addProduct')
 data.setCell(8, 2, 'ProductTest.FishProduct')
-data.setCell(8, 3, 1);
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'addProduct')
+data.setCell(9, 1, 'updateProduct')
 data.setCell(9, 2, 'ProductTest.FishProduct')
-data.setCell(9, 3, 1);
+data.setCell(9, 3, 0);
 window.suiteTableData['Suite_Functionality']= { tableData: data, tableDiv: 'times-div-Suite_Functionality'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite_Functionality">
               </div> <!-- times-div-Suite_Functionality -->
             </div> <!-- times-div -->
@@ -528,19 +505,7 @@ return data;
                 <span class="reporter-method-output">Successfully Proceed to Checkout.</span>
                 <span class="reporter-method-output">Successfully Confirm the Order.</span>
                 <span class="reporter-method-output">Thank you, your order has been submitted.</span>
-                <span class="reporter-method-output">ScreenShot saved at:C:\Users\Harry\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">removeProduct</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Add Product Removed Successfully</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addProduct</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Adding Product Started Successfully</span>
+                <span class="reporter-method-output">ScreenShot saved at:C:\Users\Revathi\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -580,112 +545,119 @@ return data;
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">suiteSetup</span>
-                <span class="method-start">382 ms</span>
+                <span class="method-start">277 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">279 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.FishProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">Suitesetup</span>
-                <span class="method-start">384 ms</span>
+                <span class="method-start">279 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">browserSetup(chrome)</span>
-                <span class="method-start">433 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">browserSetup(chrome)</span>
-                <span class="method-start">433 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">browserSetup(chrome)</span>
-                <span class="method-start">433 ms</span>
+                <span class="method-start">330 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">browserSetup(chrome)</span>
-                <span class="method-start">434 ms</span>
+                <span class="method-start">330 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(chrome)</span>
+                <span class="method-start">330 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(chrome)</span>
+                <span class="method-start">330 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.FishProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">474 ms</span>
+                <span class="method-start">366 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addProduct</span>
-                <span class="method-start">477 ms</span>
+                <span class="method-start">369 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">482 ms</span>
+                <span class="method-start">373 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">485 ms</span>
+                <span class="method-start">376 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">updateProduct</span>
-                <span class="method-start">486 ms</span>
+                <span class="method-start">377 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">491 ms</span>
+                <span class="method-start">380 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">broserTerminate</span>
-                <span class="method-start">494 ms</span>
+                <span class="method-start">384 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">4288 ms</span>
+                <span class="method-start">4450 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">4453 ms</span>
+                <span class="method-start">4451 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">4527 ms</span>
+                <span class="method-start">4602 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signin</span>
-                <span class="method-start">4824 ms</span>
+                <span class="method-start">4617 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addFirstProduct</span>
-                <span class="method-start">7426 ms</span>
+                <span class="method-start">7224 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addFirstProduct</span>
-                <span class="method-start">7582 ms</span>
+                <span class="method-start">7284 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -694,165 +666,158 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addProduct</span>
-                <span class="method-start">7650 ms</span>
+                <span class="method-start">8101 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addProduct</span>
-                <span class="method-start">8056 ms</span>
+                <span class="method-start">8136 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">10710 ms</span>
+                <span class="method-start">10202 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">11179 ms</span>
+                <span class="method-start">10790 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signout</span>
-                <span class="method-start">12243 ms</span>
+                <span class="method-start">11743 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">signin</span>
+                <span class="method-start">12371 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">removeProduct</span>
-                <span class="method-start">12535 ms</span>
+                <span class="method-start">12671 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">signin</span>
-                <span class="method-start">12736 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeFirstProduct</span>
-                <span class="method-start">14133 ms</span>
+                <span class="method-start">14089 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">14414 ms</span>
+                <span class="method-start">14974 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">browserTerminate</span>
-                <span class="method-start">15014 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signout</span>
-                <span class="method-start">15558 ms</span>
+                <span class="method-start">15442 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">browserTerminate</span>
-                <span class="method-start">16042 ms</span>
+                <span class="method-start">15510 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">signOut</span>
-                <span class="method-start">21594 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTerminate</span>
+                <span class="method-start">15996 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">21777 ms</span>
+                <span class="method-start">19735 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signIn</span>
-                <span class="method-start">22073 ms</span>
+                <span class="method-start">20657 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">signIn</span>
-                <span class="method-start">22318 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">removeProduct</span>
-                <span class="method-start">23802 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">removeProduct</span>
-                <span class="method-start">23863 ms</span>
+                <span class="method-start">22383 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">25778 ms</span>
+                <span class="method-start">23263 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">signIn</span>
+                <span class="method-start">23902 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">signOut</span>
-                <span class="method-start">25843 ms</span>
+                <span class="method-start">24443 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">terminateBrowser</span>
-                <span class="method-start">26348 ms</span>
+                <span class="method-start">25087 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ProductTest.ReptileProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeProduct</span>
+                <span class="method-start">25873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signOut</span>
+                <span class="method-start">27673 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">terminateBrowser</span>
-                <span class="method-start">26414 ms</span>
+                <span class="method-start">28161 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.BirdsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">suiteTerminateSetup</span>
-                <span class="method-start">26684 ms</span>
+                <span class="method-start">28359 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CatsProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">suiteTerminateSetup</span>
-                <span class="method-start">27247 ms</span>
+                <span class="method-start">28697 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductTest.DogsProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">suiteTerminateSetup</span>
+                <span class="method-start">28767 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.FishProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">suiteTerminateSetup</span>
-                <span class="method-start">27363 ms</span>
+                <span class="method-start">28820 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

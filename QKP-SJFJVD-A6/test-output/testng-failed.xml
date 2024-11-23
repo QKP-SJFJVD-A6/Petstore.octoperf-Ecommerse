@@ -6,8 +6,8 @@
     <classes>
       <class name="ProductTest.FishProduct">
         <methods>
-          <include name="browserSetup"/>
           <include name="addProduct"/>
+          <include name="browserSetup"/>
           <include name="suiteTerminateSetup"/>
           <include name="updateProduct"/>
           <include name="Suitesetup"/>
@@ -26,24 +26,10 @@
           <include name="terminateBrowser"/>
           <include name="signOut"/>
           <include name="signIn"/>
-          <include name="browserSetup"/>
           <include name="addProduct"/>
+          <include name="browserSetup"/>
         </methods>
       </class> <!-- ProductTest.ReptileProduct -->
     </classes>
   </test> <!-- Test5(failed) -->
-  <test thread-count="5" parallel="tests" name="Test3(failed)">
-    <parameter name="BrowserName" value="chrome"/>
-    <classes>
-      <class name="ProductTest.DogsProduct">
-        <methods>
-          <include name="signOut"/>
-          <include name="terminateBrowser"/>
-          <include name="browserSetup"/>
-          <include name="signIn"/>
-          <include name="addProduct"/>
-        </methods>
-      </class> <!-- ProductTest.DogsProduct -->
-    </classes>
-  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite-Functionality] -->
