@@ -1,147 +1,566 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Execution Started Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[----------------ADD PRODUCT----------------]]>
+    </line>
+    <line>
+      <![CDATA[Implicit wait set to 20 seconds.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the cats link was successful.]]>
+    </line>
+    <line>
+      <![CDATA[Sign In done Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Adding Product Started Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Click the link to view the cat product ID successfully.]]>
+    </line>
+    <line>
+      <![CDATA[The cat product has been successfully placed to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[Enter a specific cat product's quantity number successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully updated cart.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Proceed to Checkout.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Confirm the Order.]]>
+    </line>
+    <line>
+      <![CDATA[Thank you, your order has been submitted.]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShot saved at:C:\Users\SURYA REDDY\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out started Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Execution Started Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[----------------REMOVE PRODUCT----------------]]>
+    </line>
+    <line>
+      <![CDATA[Implicit wait set to 20 seconds.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the cats link was successful.]]>
+    </line>
+    <line>
+      <![CDATA[Thank you, your order has been submitted.]]>
+    </line>
+    <line>
+      <![CDATA[Click the link to view the cat product ID successfully.]]>
+    </line>
+    <line>
+      <![CDATA[The cat product has been successfully placed to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[Removed the product in the cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Your cart is empty.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully updated cart of Cats product]]>
+    </line>
+    <line>
+      <![CDATA[Your cart is empty.]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out started Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Terminated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Adding Product Finished Successfully]]>
+    </line>
+    <line>
+      <![CDATA[SignOut Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Your cart is empty.]]>
+    </line>
+    <line>
+      <![CDATA[Sign In done Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Add Product Removed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[SignOut Done Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Broser Terminated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you, your order has been submitted.]]>
+    </line>
+    <line>
+      <![CDATA[Broser Terminated Successfully]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-11-25T17:25:55 IST" name="Default suite" finished-at="2024-11-25T17:25:55 IST" duration-ms="115">
+  <suite started-at="2024-11-25T21:34:44 IST" name="Suite-Functionality" finished-at="2024-11-25T21:35:19 IST" duration-ms="35137">
     <groups>
     </groups>
-    <test started-at="2024-11-25T17:25:55 IST" name="Default test" finished-at="2024-11-25T17:25:55 IST" duration-ms="115">
+    <test started-at="2024-11-25T21:34:44 IST" name="Test2" finished-at="2024-11-25T21:35:03 IST" duration-ms="19018">
       <class name="ProductTest.CatsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="suiteSetup" finished-at="2024-11-25T17:25:55 IST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:44 IST" name="browserSetup" finished-at="2024-11-25T21:34:48 IST" duration-ms="4370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[browser launched successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="browserSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1732535755626" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:48 IST" name="signIn" finished-at="2024-11-25T21:34:50 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign In Execution Started Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:50 IST" name="addFirstProduct" finished-at="2024-11-25T21:34:53 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----------------ADD PRODUCT----------------]]>
+            </line>
+            <line>
+              <![CDATA[Implicit wait set to 20 seconds.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the cats link was successful.]]>
+            </line>
+            <line>
+              <![CDATA[Click the link to view the cat product ID successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The cat product has been successfully placed to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[Enter a specific cat product's quantity number successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully updated cart.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Proceed to Checkout.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Confirm the Order.]]>
+            </line>
+            <line>
+              <![CDATA[Thank you, your order has been submitted.]]>
+            </line>
+            <line>
+              <![CDATA[ScreenShot saved at:C:\Users\SURYA REDDY\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addFirstProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:53 IST" name="signOut" finished-at="2024-11-25T21:34:54 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign Out started Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sign Out Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:54 IST" name="signIn" finished-at="2024-11-25T21:34:55 IST" duration-ms="974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign In Execution Started Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:55 IST" name="removeProduct" finished-at="2024-11-25T21:35:01 IST" depends-on-methods="ProductTest.CatsProduct.addFirstProduct" duration-ms="5974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----------------REMOVE PRODUCT----------------]]>
+            </line>
+            <line>
+              <![CDATA[Implicit wait set to 20 seconds.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the cats link was successful.]]>
+            </line>
+            <line>
+              <![CDATA[Click the link to view the cat product ID successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The cat product has been successfully placed to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[Removed the product in the cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[Your cart is empty.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully updated cart of Cats product]]>
+            </line>
+            <line>
+              <![CDATA[Your cart is empty.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:35:01 IST" name="signOut" finished-at="2024-11-25T21:35:02 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign Out started Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sign Out Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:35:02 IST" name="browserTerminate" finished-at="2024-11-25T21:35:03 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Terminated Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
+      </class> <!-- ProductTest.CatsProduct -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-11-25T21:34:44 IST" name="Test1" finished-at="2024-11-25T21:35:03 IST" duration-ms="19718">
+      <class name="ProductTest.BirdsProduct">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:44 IST" name="browserSetup" finished-at="2024-11-25T21:34:48 IST" duration-ms="4248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="signIn" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:48 IST" name="signin" finished-at="2024-11-25T21:34:51 IST" duration-ms="2651" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="addFirstProduct" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- signin -->
+        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:51 IST" name="addFirstProduct" finished-at="2024-11-25T21:34:55 IST" duration-ms="4423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="signOut" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:55 IST" name="signout" finished-at="2024-11-25T21:34:56 IST" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="removeProduct" finished-at="2024-11-25T17:25:55 IST" depends-on-methods="ProductTest.CatsProduct.addFirstProduct" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ProductTest.CatsProduct.removeProduct() on instance ProductTest.CatsProduct@7bba5817 depends on not successfully finished methods 
-[ProductTest.CatsProduct.addFirstProduct() on instance ProductTest.CatsProduct@7bba5817]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ProductTest.CatsProduct.removeProduct() on instance ProductTest.CatsProduct@7bba5817 depends on not successfully finished methods 
-[ProductTest.CatsProduct.addFirstProduct() on instance ProductTest.CatsProduct@7bba5817]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- signout -->
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:56 IST" name="signin" finished-at="2024-11-25T21:34:57 IST" duration-ms="1045" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="browserTerminate" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- signin -->
+        <test-method signature="removeFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:57 IST" name="removeFirstProduct" finished-at="2024-11-25T21:34:58 IST" depends-on-methods="ProductTest.BirdsProduct.addFirstProduct" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFirstProduct -->
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:58 IST" name="signout" finished-at="2024-11-25T21:34:59 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:59 IST" name="browserTerminate" finished-at="2024-11-25T21:35:03 IST" duration-ms="4448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="suiteTerminateSetup" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
+      </class> <!-- ProductTest.BirdsProduct -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-11-25T21:34:44 IST" name="Test5" finished-at="2024-11-25T21:35:09 IST" duration-ms="25602">
+      <class name="ProductTest.FishProduct">
+        <test-method is-config="true" signature="Suitesetup()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:34:44 IST" name="Suitesetup" finished-at="2024-11-25T21:34:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suitesetup -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:19 IST" name="suiteTerminateSetup" finished-at="2024-11-25T21:35:19 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- ProductTest.FishProduct -->
+      <class name="ProductTest.CatsProduct">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:34:44 IST" name="suiteSetup" finished-at="2024-11-25T21:34:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@c05fddc]" started-at="2024-11-25T21:35:19 IST" name="suiteTerminateSetup" finished-at="2024-11-25T21:35:19 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
       </class> <!-- ProductTest.CatsProduct -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="ProductTest.DogsProduct">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:34:44 IST" name="suiteSetup" finished-at="2024-11-25T21:34:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:19 IST" name="suiteTerminateSetup" finished-at="2024-11-25T21:35:19 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- ProductTest.DogsProduct -->
+      <class name="ProductTest.BirdsProduct">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:34:43 IST" name="suiteSetup" finished-at="2024-11-25T21:34:44 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.BirdsProduct@533bda92]" started-at="2024-11-25T21:35:19 IST" name="suiteTerminateSetup" finished-at="2024-11-25T21:35:19 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- ProductTest.BirdsProduct -->
+      <class name="ProductTest.ReptileProduct">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:34:44 IST" name="suiteSetup" finished-at="2024-11-25T21:34:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:34:44 IST" name="browserSetup" finished-at="2024-11-25T21:34:48 IST" duration-ms="4081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:34:48 IST" name="signIn" finished-at="2024-11-25T21:34:51 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Sign In done Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:34:51 IST" name="addProduct" finished-at="2024-11-25T21:35:06 IST" duration-ms="14752" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Adding Product Started Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Adding Product Finished Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:06 IST" name="signOut" finished-at="2024-11-25T21:35:06 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignOut Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:06 IST" name="signIn" finished-at="2024-11-25T21:35:07 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Sign In done Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:07 IST" name="removeProduct" finished-at="2024-11-25T21:35:09 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add Product Removed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:09 IST" name="signOut" finished-at="2024-11-25T21:35:09 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignOut Done Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:09 IST" name="terminateBrowser" finished-at="2024-11-25T21:35:09 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Broser Terminated Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.ReptileProduct@1b1cfb87]" started-at="2024-11-25T21:35:19 IST" name="suiteTerminateSetup" finished-at="2024-11-25T21:35:19 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- ProductTest.ReptileProduct -->
+    </test> <!-- Test5 -->
+    <test started-at="2024-11-25T21:34:44 IST" name="Test3" finished-at="2024-11-25T21:35:17 IST" duration-ms="33748">
+      <class name="ProductTest.DogsProduct">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:34:44 IST" name="browserSetup" finished-at="2024-11-25T21:34:48 IST" duration-ms="4081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:34:48 IST" name="signIn" finished-at="2024-11-25T21:34:51 IST" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:34:51 IST" name="addProduct" finished-at="2024-11-25T21:35:01 IST" duration-ms="9698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:01 IST" name="signOut" finished-at="2024-11-25T21:35:02 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:02 IST" name="signIn" finished-at="2024-11-25T21:35:03 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="updateProduct()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:03 IST" name="updateProduct" finished-at="2024-11-25T21:35:14 IST" duration-ms="10155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:14 IST" name="signOut" finished-at="2024-11-25T21:35:14 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:14 IST" name="signIn" finished-at="2024-11-25T21:35:15 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:15 IST" name="removeProduct" finished-at="2024-11-25T21:35:17 IST" depends-on-methods="ProductTest.DogsProduct.addProduct" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:17 IST" name="signOut" finished-at="2024-11-25T21:35:17 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.DogsProduct@491b9b8]" started-at="2024-11-25T21:35:17 IST" name="terminateBrowser" finished-at="2024-11-25T21:35:17 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Broser Terminated Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- ProductTest.DogsProduct -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-11-25T21:34:44 IST" name="Test4" finished-at="2024-11-25T21:35:19 IST" duration-ms="35137">
+      <class name="ProductTest.FishProduct">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:34:44 IST" name="browserSetup" finished-at="2024-11-25T21:34:48 IST" duration-ms="4232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:34:48 IST" name="signIn" finished-at="2024-11-25T21:34:51 IST" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addProduct()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:34:51 IST" name="addProduct" finished-at="2024-11-25T21:34:59 IST" duration-ms="8554" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you, your order has been submitted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:34:59 IST" name="signOut" finished-at="2024-11-25T21:35:00 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:00 IST" name="signIn" finished-at="2024-11-25T21:35:03 IST" duration-ms="2479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:03 IST" name="removeProduct" finished-at="2024-11-25T21:35:08 IST" duration-ms="5519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Your cart is empty.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:08 IST" name="signOut" finished-at="2024-11-25T21:35:09 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:09 IST" name="signIn" finished-at="2024-11-25T21:35:10 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="updateProduct()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:10 IST" name="updateProduct" finished-at="2024-11-25T21:35:18 IST" duration-ms="8414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you, your order has been submitted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:18 IST" name="signOut" finished-at="2024-11-25T21:35:19 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:ProductTest.FishProduct@6b09fb41]" started-at="2024-11-25T21:35:19 IST" name="broserTerminate" finished-at="2024-11-25T21:35:19 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserTerminate -->
+      </class> <!-- ProductTest.FishProduct -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite-Functionality -->
 </testng-results>

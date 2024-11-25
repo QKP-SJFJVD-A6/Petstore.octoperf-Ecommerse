@@ -171,20 +171,16 @@ public class DogsProduct {
 		quantity.sendKeys("1");
 		test.log(Status.INFO, "Quantity changed to 1 succesful");
 		Thread.sleep(1000);
-		// Step8: Update Cart
-		driver.findElement(By.name("updateCartQuantities")).click();
-		test.log(Status.INFO, "Click on Checkout succesful");
-		Thread.sleep(1000);
-		// Step:9 Click on Proceed to checkOut
+		// Step:8 Click on Proceed to checkOut
 		driver.findElement(By.xpath("(//a[@class='Button'])[2]")).click();
 		test.log(Status.INFO, "Click on continue succesful");
 		Thread.sleep(1000);
-		// Step:10 Click on Continue
+		// Step:9 Click on Continue
 		driver.findElement(By.name("newOrder")).click();
 		test.log(Status.INFO, "Dog Product Chihuahua-Added Succesful");
 
 		Thread.sleep(1000);
-		// Step:11 CLicking on Confirm
+		// Step:10 CLicking on Confirm
 		driver.findElement(By.xpath("//a[@class='Button']")).click();
 
 		Thread.sleep(1000);
@@ -195,6 +191,55 @@ public class DogsProduct {
 		test.log(Status.INFO, "Screenshot taken succesfully");
 
 	}
+	
+	@Test
+	public void updateProduct() throws IOException, InterruptedException {
+		// Create the Test Information
+				test = report.createTest("addProduct");
+				// Step:5.0: Click on Dog Product
+				driver.findElement(By.xpath("(//area[@shape='RECT'])[3]")).click();
+
+				Thread.sleep(1000);
+				test.log(Status.INFO, "Click on Dogs Succesful");
+				// Step:5.1 Click on a Product Code-6th Product
+				driver.findElement(By.xpath("//a[contains(@href,'K9-CW-01')]")).click();
+				test.log(Status.INFO, "Click on Chihuahua ID Succesful");
+				Thread.sleep(1000);
+				// Step:6: Click on Add to Cart
+				driver.findElement(By.xpath("(//a[contains(@href,'EST-26')])[2]")).click();
+				test.log(Status.INFO, "Click on Add to Cart succesful");
+				Thread.sleep(1000);
+				// Step:7: Change Quantity
+				WebElement quantity = driver.findElement(By.name("EST-26"));
+				quantity.clear();
+				quantity.sendKeys("1");
+				test.log(Status.INFO, "Quantity changed to 1 succesful");
+				Thread.sleep(1000);
+				// Step8: Update Cart
+				driver.findElement(By.name("updateCartQuantities")).click();
+				test.log(Status.INFO, "Click on Checkout succesful");
+				Thread.sleep(1000);
+				// Step:9 Click on Proceed to checkOut
+				driver.findElement(By.xpath("(//a[@class='Button'])[2]")).click();
+				test.log(Status.INFO, "Click on continue succesful");
+				Thread.sleep(1000);
+				// Step:10 Click on Continue
+				driver.findElement(By.name("newOrder")).click();
+				test.log(Status.INFO, "Dog Product Chihuahua-Added Succesful");
+
+				Thread.sleep(1000);
+				// Step:11 CLicking on Confirm
+				driver.findElement(By.xpath("//a[@class='Button']")).click();
+
+				Thread.sleep(1000);
+				TakesScreenshot ts = (TakesScreenshot) driver;
+				File temp = ts.getScreenshotAs(OutputType.FILE);
+				File perm = new File("./Screenshots/DogProduct.png");
+				FileHandler.copy(temp, perm);
+				test.log(Status.INFO, "Screenshot taken succesfully");
+
+			}
+			
 
 	@Test(dependsOnMethods = "addProduct")
 
@@ -222,6 +267,9 @@ public class DogsProduct {
 		// Step9: Clicking on Remove
 		driver.findElement(By.xpath("(//a[@class='Button'])[1]")).click();
 		test.log(Status.INFO, "Dogs Product Test-Chihuahua-Removed Succesful");
+		
+		
+		
 
 	}
 }
