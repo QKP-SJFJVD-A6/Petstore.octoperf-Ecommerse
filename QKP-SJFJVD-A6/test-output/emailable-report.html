@@ -8,103 +8,97 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite-Functionality</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">38,026</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,972</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test3</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">52,597</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Test5</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">61,218</td><td></td><td></td></tr>
-<tr><td><a href="#t4">Test4</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">81,118</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">8</th><th class="num attn">2</th><th class="num">0</th><th class="num attn">1</th><th class="num">278,931</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">114</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite-Functionality</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">ProductTest.BirdsProduct</td><td><a href="#m0">signin</a></td><td rowspan="1">1732357134414</td><td rowspan="1">33137</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">ProductTest.BirdsProduct</td><td><a href="#m1">browserTerminate</a></td><td rowspan="1">1732357167601</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">signout</a></td><td rowspan="1">1732357167584</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">ProductTest.BirdsProduct</td><td><a href="#m3">addFirstProduct</a></td><td rowspan="1">1732357167568</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">removeFirstProduct</a></td><td rowspan="1">1732357167595</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">ProductTest.CatsProduct</td><td><a href="#m5">addFirstProduct</a></td><td rowspan="1">1732357162752</td><td rowspan="1">3879</td></tr><tr class="passedeven"><td><a href="#m6">removeProduct</a></td><td rowspan="1">1732357169466</td><td rowspan="1">2285</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">ProductTest.DogsProduct</td><td><a href="#m7">addProduct</a></td><td rowspan="1">1732357163517</td><td rowspan="1">11897</td></tr><tr class="passedeven"><td><a href="#m8">removeProduct</a></td><td rowspan="1">1732357177887</td><td rowspan="1">2095</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Test5 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ProductTest.ReptileProduct</td><td><a href="#m9">addProduct</a></td><td rowspan="1">1732357170300</td><td rowspan="1">14086</td></tr><tr><th colspan="4">Test5 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ProductTest.ReptileProduct</td><td><a href="#m10">removeProduct</a></td><td rowspan="1">1732357186635</td><td rowspan="1">1968</td></tr></tbody>
-<tbody id="t4"><tr><th colspan="4">Test4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">ProductTest.FishProduct</td><td><a href="#m11">addProduct</a></td><td rowspan="1">1732357180396</td><td rowspan="1">9052</td></tr><tr class="passedeven"><td><a href="#m12">removeProduct</a></td><td rowspan="1">1732357191541</td><td rowspan="1">5909</td></tr><tr class="passedeven"><td><a href="#m13">updateProduct</a></td><td rowspan="1">1732357199355</td><td rowspan="1">9739</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">ProductTest.ReptileProduct</td><td><a href="#m0">browserSetup</a></td><td rowspan="1">1732474901472</td><td rowspan="1">-1732474901472</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">ProductTest.ReptileProduct</td><td><a href="#m1">signIn</a></td><td rowspan="2">1732474901517</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m2">signIn</a></td></tr><tr class="skippedeven"><td><a href="#m3">signOut</a></td><td rowspan="2">1732474901548</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m4">signOut</a></td></tr><tr class="skippedeven"><td><a href="#m5">suiteTerminateSetup</a></td><td rowspan="1">1732474901671</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">terminateBrowser</a></td><td rowspan="1">1732474901553</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">ProductTest.ReptileProduct</td><td><a href="#m7">addProduct</a></td><td rowspan="1">1732474901523</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">removeProduct</a></td><td rowspan="1">1732474901538</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">ProductTest.BirdsProduct#signin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Sign In&apos;)]&quot;}
-  (Session info: chrome=123.0.6312.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.11.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bef9ca2e671b69496c101b11f17d261a
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign In&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at ProductTest.BirdsProduct.signin(BirdsProduct.java:116)
+<h2>Default test</h2><h3 id="m0">ProductTest.ReptileProduct#browserSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ProductTest.BirdsProduct#browserTerminate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">ProductTest.BirdsProduct#signout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">ProductTest.BirdsProduct#addFirstProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Sign In&apos;)]&quot;}
-  (Session info: chrome=123.0.6312.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.11.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bef9ca2e671b69496c101b11f17d261a
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign In&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at ProductTest.BirdsProduct.signin(BirdsProduct.java:116)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ProductTest.ReptileProduct#signIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ProductTest.ReptileProduct#signIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ProductTest.ReptileProduct#signOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ProductTest.ReptileProduct#signOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ProductTest.ReptileProduct#suiteTerminateSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ProductTest.ReptileProduct#terminateBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ProductTest.ReptileProduct#addProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">ProductTest.BirdsProduct#removeFirstProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ProductTest.BirdsProduct.removeFirstProduct() on instance ProductTest.BirdsProduct@1040be71 depends on not successfully finished methods 
-[ProductTest.BirdsProduct.addFirstProduct() on instance ProductTest.BirdsProduct@1040be71]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">ProductTest.ReptileProduct#removeProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
+in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m5">ProductTest.CatsProduct#addFirstProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">----------------ADD PRODUCT----------------<br/>Implicit wait set to 20 seconds.<br/>Clicking on the cats link was successful.<br/>Click the link to view the cat product ID successfully.<br/>The cat product has been successfully placed to the cart.<br/>Enter a specific cat product's quantity number successfully.<br/>Successfully updated cart.<br/>Successfully Proceed to Checkout.<br/>Successfully Confirm the Order.<br/>Thank you, your order has been submitted.<br/>ScreenShot saved at:C:\Users\lenovo\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">ProductTest.CatsProduct#removeProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">----------------REMOVE PRODUCT----------------<br/>Implicit wait set to 20 seconds.<br/>Clicking on the cats link was successful.<br/>Click the link to view the cat product ID successfully.<br/>The cat product has been successfully placed to the cart.<br/>Removed the product in the cart successfully<br/>Your cart is empty.<br/>Successfully updated cart.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test3</h2><h3 id="m7">ProductTest.DogsProduct#addProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">ProductTest.DogsProduct#removeProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test5</h2><h3 id="m9">ProductTest.ReptileProduct#addProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Adding Product Started Successfully</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: .\TakeScreenshot\DogProduct.png (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:179)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
-	at ProductTest.ReptileProduct.addProduct(ReptileProduct.java:153)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">ProductTest.ReptileProduct#removeProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Add Product Removed Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test4</h2><h3 id="m11">ProductTest.FishProduct#addProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Thank you, your order has been submitted.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">ProductTest.FishProduct#removeProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Your cart is empty.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">ProductTest.FishProduct#updateProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Thank you, your order has been submitted.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

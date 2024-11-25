@@ -15,15 +15,54 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ReptileProduct {
 	WebDriver driver;
+	ExtentSparkReporter spark;
+	ExtentReports report;
+	ExtentTest test;
+	
+	@BeforeSuite
+	public void suiteSetup() {
+		// Create the SparkReport
+		spark = new ExtentSparkReporter("./AdvanceReports/ReptileProductReport.html");
+
+		// Configure the sparkReport Information
+		spark.config().setDocumentTitle("Functionality Testing for Petstore");
+		spark.config().setReportName("FunctionalitySuite||ReptileTest");
+		spark.config().setTheme(Theme.STANDARD);
+
+		// Create the extent report
+		report = new ExtentReports();
+
+		// Attach the Spark Report and ExtentReport
+		report.attachReporter(spark);
+
+		// Configure the System Information in ExtentReport
+		report.setSystemInfo("DeviceName:", "Harry");
+		report.setSystemInfo("OpeningSystem:", "WINDOWS 11");
+		report.setSystemInfo("Browser:", "Chrome");
+		report.setSystemInfo("BrowserVersion:", "chrome-128.0.6613.85");
+	}
+	
+	@AfterSuite
+	public void suiteTerminateSetup() {
+		// Flush the Report Information
+		report.flush();
+	}
 
 	@Parameters("BrowserName")
 	@BeforeClass
@@ -101,45 +140,85 @@ public class ReptileProduct {
 	}
 
 	@Test
-	public void addProduct() throws IOException, InterruptedException {
+	public void addProduct() {
 		
 		Reporter.log("Adding Product Started Successfully", true);
 
 		// Step:5.0: Click on Dog Product
 		driver.findElement(By.xpath("//img[contains(@src,'reptiles_icon')]")).click();
 
-		Thread.sleep(2000);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		// Step:5.1 Click on a Product Code-6th Product
 		driver.findElement(By.xpath("//a[contains(text(),'RP-SN-01')]")).click();
 
-		Thread.sleep(2000);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:6: Click on Add to Cart
 		driver.findElement(By.xpath("//a[contains(text(),'Add to Cart')]")).click();
 
-		Thread.sleep(2000);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:7: Change Quantity
 		WebElement quantity = driver.findElement(By.name("EST-11"));
 		quantity.clear();
 		quantity.sendKeys("1");
 
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step8: Update Cart
 		driver.findElement(By.name("updateCartQuantities")).click();
 
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:9 Click on Proceed to checkOut
 		driver.findElement(By.xpath("//a[contains(text(),'Proceed to Checkout')]")).click();
 
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:10 Click on Continue
 		driver.findElement(By.name("newOrder")).click();
 
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:11 CLicking on Confirm
 		driver.findElement(By.xpath("//a[contains(text(),'Confirm')]")).click();
 
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Step:12 Scrolling Web Page
 		//WebElement end = driver.findElement(By.xpath("//th[@colspan='5']"));
 
@@ -150,7 +229,12 @@ public class ReptileProduct {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
 		File perm = new File("./TakeScreenshot/DogProduct.png");
-		FileHandler.copy(temp, perm);
+		try {
+			FileHandler.copy(temp, perm);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		System.out.println(driver.getTitle());
 		
