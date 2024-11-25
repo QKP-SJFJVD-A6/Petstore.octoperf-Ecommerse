@@ -24,6 +24,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -217,7 +218,7 @@ public class CatsProduct {
 	
 	
 	@Test(dependsOnMethods = "addFirstProduct")
-	public void removeProduct()
+	public void removeProduct() throws InterruptedException
 	{
 		test = report.createTest("Removed Product in Cart");
 		
@@ -250,9 +251,20 @@ public class CatsProduct {
 			Reporter.log("Your cart is not empty.", true);
 			test.fail("Your cart is not empty.");
 		}
+		//Click on Update cart button
 		
+		test.log(Status.INFO,"Click on Update cart button");
 		driver.findElement(By.name("updateCartQuantities")).click();
-		Reporter.log("Successfully updated cart.", true);
+		Reporter.log("Successfully updated cart of Cats product", true);
+		Thread.sleep(2000);
+		
+		//Read the cart details
+				test.log(Status.INFO,"Read the cart details");
+				WebElement empty = driver.findElement(By.xpath("//b[contains(text(), 'empty')]"));
+				Reporter.log(empty.getText());
+				test.log(Status.INFO,empty.getText());
+				test.log(Status.INFO,"Read the cart details Succefully");
+				Thread.sleep(2000);
 	}
 	
 	
