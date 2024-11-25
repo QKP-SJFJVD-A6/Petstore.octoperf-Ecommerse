@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T00:31:41 IST" name="Default suite" finished-at="2024-11-25T00:31:41 IST" duration-ms="114">
+  <suite started-at="2024-11-25T17:25:55 IST" name="Default suite" finished-at="2024-11-25T17:25:55 IST" duration-ms="115">
     <groups>
     </groups>
-    <test started-at="2024-11-25T00:31:41 IST" name="Default test" finished-at="2024-11-25T00:31:41 IST" duration-ms="114">
-      <class name="ProductTest.ReptileProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:40 IST" name="suiteSetup" finished-at="2024-11-25T00:31:41 IST" duration-ms="444" status="PASS">
+    <test started-at="2024-11-25T17:25:55 IST" name="Default test" finished-at="2024-11-25T17:25:55 IST" duration-ms="115">
+      <class name="ProductTest.CatsProduct">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="suiteSetup" finished-at="2024-11-25T17:25:55 IST" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="browserSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1732474901472" status="FAIL">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="browserSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1732535755626" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml]]>
+in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
+in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:267)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -29,7 +29,7 @@ at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
@@ -51,21 +51,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="signIn" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="signIn" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="addProduct" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="addFirstProduct" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml]]>
+in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
+in C:\Users\Kallem Akshitha\AppData\Local\Temp\testng-eclipse--5447002\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:267)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -73,7 +73,7 @@ at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
@@ -94,34 +94,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="signOut" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- addFirstProduct -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="signOut" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="signIn" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="removeProduct" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
+        <test-method signature="removeProduct()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="removeProduct" finished-at="2024-11-25T17:25:55 IST" depends-on-methods="ProductTest.CatsProduct.addFirstProduct" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml]]>
+              <![CDATA[Method ProductTest.CatsProduct.removeProduct() on instance ProductTest.CatsProduct@7bba5817 depends on not successfully finished methods 
+[ProductTest.CatsProduct.addFirstProduct() on instance ProductTest.CatsProduct@7bba5817]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'BrowserName' is required by BeforeClass on method browserSetup but has not been marked @Optional or defined
-in C:\Users\AJJU\AppData\Local\Temp\testng-eclipse--1265912509\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+              <![CDATA[java.lang.Throwable: Method ProductTest.CatsProduct.removeProduct() on instance ProductTest.CatsProduct@7bba5817 depends on not successfully finished methods 
+[ProductTest.CatsProduct.addFirstProduct() on instance ProductTest.CatsProduct@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
@@ -139,23 +129,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="signOut" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="browserTerminate" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="terminateBrowser" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.ReptileProduct@1040be71]" started-at="2024-11-25T00:31:41 IST" name="suiteTerminateSetup" finished-at="2024-11-25T00:31:41 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- browserTerminate -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@7bba5817]" started-at="2024-11-25T17:25:55 IST" name="suiteTerminateSetup" finished-at="2024-11-25T17:25:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.ReptileProduct -->
+      </class> <!-- ProductTest.CatsProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

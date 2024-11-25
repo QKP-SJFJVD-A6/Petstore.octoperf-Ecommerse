@@ -3,18 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ProductTest.ReptileProduct">
+      <class name="ProductTest.CatsProduct">
         <methods>
-          <include name="suiteSetup"/>
-          <include name="terminateBrowser"/>
-          <include name="removeProduct"/>
           <include name="signIn"/>
-          <include name="signOut"/>
-          <include name="addProduct"/>
-          <include name="browserSetup"/>
+          <include name="addFirstProduct"/>
+          <include name="removeProduct"/>
+          <include name="suiteSetup"/>
           <include name="suiteTerminateSetup"/>
+          <include name="browserSetup"/>
+          <include name="signOut"/>
+          <include name="browserTerminate"/>
         </methods>
-      </class> <!-- ProductTest.ReptileProduct -->
+      </class> <!-- ProductTest.CatsProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
