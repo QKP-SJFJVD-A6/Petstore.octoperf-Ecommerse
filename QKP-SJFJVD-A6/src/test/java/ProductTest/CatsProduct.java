@@ -155,7 +155,7 @@ public class CatsProduct {
 		test.pass("Terminated Successfully.");
 	}
 	
-	@Test
+	@Test(groups = "A")
 	public void addFirstProduct() throws IOException, InterruptedException
 	{
 		
@@ -217,7 +217,7 @@ public class CatsProduct {
 	
 	
 	
-	@Test(dependsOnMethods = "addFirstProduct")
+	@Test(dependsOnMethods = "addFirstProduct",groups = "B")
 	public void removeProduct() throws InterruptedException
 	{
 		test = report.createTest("Removed Product in Cart");

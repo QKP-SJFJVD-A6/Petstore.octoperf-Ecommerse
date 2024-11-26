@@ -169,7 +169,7 @@ WebDriver driver;
 		driver.quit();
 		test.log(Status.INFO,"Browser terminated succefully");
 	}
-	@Test 
+	@Test (groups = "A")
 	public void addProduct() throws InterruptedException, IOException
 	{
 		
@@ -233,7 +233,7 @@ WebDriver driver;
 		
 	}
 	
-	@Test
+	@Test(groups = "C",dependsOnMethods = "addProduct")
 	public void updateProduct() throws InterruptedException, IOException
 	{
 		
@@ -303,7 +303,7 @@ WebDriver driver;
 		Thread.sleep(2000);
 	}
 	
-	@Test
+	@Test(groups = "B",dependsOnMethods = "addProduct")
 	public void removeProduct() throws InterruptedException
 	{
 		

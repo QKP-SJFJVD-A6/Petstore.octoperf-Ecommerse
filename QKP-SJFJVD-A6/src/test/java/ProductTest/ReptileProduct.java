@@ -139,7 +139,7 @@ public class ReptileProduct {
 		Reporter.log("Broser Terminated Successfully", true);
 	}
 
-	@Test
+	@Test(groups = "A")
 	public void addProduct() {
 		
 		Reporter.log("Adding Product Started Successfully", true);
@@ -228,7 +228,7 @@ public class ReptileProduct {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
-		File perm = new File("./TakeScreenshot/DogProduct.png");
+		File perm = new File("./Screenshots/ReptileProduct.png");
 		try {
 			FileHandler.copy(temp, perm);
 		} catch (IOException e) {
@@ -242,7 +242,7 @@ public class ReptileProduct {
 
 	}
 
-	@Test
+	@Test(groups = "B")
 	
 	public void removeProduct() {
 

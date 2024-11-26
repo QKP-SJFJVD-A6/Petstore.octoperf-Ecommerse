@@ -145,7 +145,7 @@ public class BirdsProduct {
 			test.log(Status.INFO,"Browser Terminated Succesful");
 		}
 	
-	@Test
+	@Test(groups = "A")
 	public void addFirstProduct() throws IOException, InterruptedException
 	{
 		// Create the Test Information
@@ -178,7 +178,7 @@ public class BirdsProduct {
 		test.log(Status.INFO,"Screenshot taken succesfully");
 	}
 	
-	@Test(dependsOnMethods = "addFirstProduct")
+	@Test(dependsOnMethods = "addFirstProduct",groups = "B")
 	public void removeFirstProduct()
 	{
 		// Create the Test Information

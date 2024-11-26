@@ -147,7 +147,7 @@ public class DogsProduct {
 		Reporter.log("Broser Terminated Successfully", true);
 	}
 
-	@Test
+	@Test(groups = "A")
 	public void addProduct() throws IOException, InterruptedException {
 
 		// Create the Test Information
@@ -192,7 +192,7 @@ public class DogsProduct {
 
 	}
 	
-	@Test
+	@Test(groups = "C",dependsOnMethods = "addProduct")
 	public void updateProduct() throws IOException, InterruptedException {
 		// Create the Test Information
 				test = report.createTest("addProduct");
@@ -241,7 +241,7 @@ public class DogsProduct {
 			}
 			
 
-	@Test(dependsOnMethods = "addProduct")
+	@Test(dependsOnMethods = "addProduct",groups = "B")
 
 	public void removeProduct() {
 
