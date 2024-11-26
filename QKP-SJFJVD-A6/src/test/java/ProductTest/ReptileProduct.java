@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -24,6 +23,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -68,7 +68,9 @@ public class ReptileProduct {
 	@BeforeClass
 	public void browserSetup(String browser) {
 
-		Reporter.log("Browser Launched Successfully", true);
+		test = report.createTest("browserSetup");
+		test.log(Status.INFO, "Browser launched succesfully");
+
 
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -85,8 +87,8 @@ public class ReptileProduct {
 			// Step:1.1: Browser Launched-Edge
 			driver = new EdgeDriver();
 		} else {
-			Reporter.log("You Entered Invalid Browser", true);
-			Reporter.log("So, I will Run My Default Browser-Chrome");
+			test.log(Status.INFO,"You Entered Invalid Browser");
+			test.log(Status.INFO,"So, I will Run My Default Browser-Chrome");
 
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -97,7 +99,8 @@ public class ReptileProduct {
 	@BeforeMethod
 	public void signIn() {
 
-		Reporter.log("SignIn Execution Started", true);
+		test = report.createTest("signin");
+		test.log(Status.INFO, "Sign In Execution Started Succesful");
 		// Step: 1.2 : Navigating to the Application
 		driver.get("https://petstore.octoperf.com/");
 		
@@ -118,7 +121,7 @@ public class ReptileProduct {
 		// Step:4.0: Click on Sign In
 		driver.findElement(By.xpath("//input[@name='signon']")).click();
 
-		Reporter.log("Sign In done Succesfully", true);
+		test.log(Status.INFO, "Sign In Done Succesful");
 
 	}
 	
@@ -128,7 +131,9 @@ public class ReptileProduct {
 
 		// Step: Click on Sign Out
 		driver.findElement(By.xpath("//a[contains(@href,'signoff')]")).click();
-		Reporter.log("SignOut Done Successfully", true);
+		test = report.createTest("signout");
+		test.log(Status.INFO, "Sign out Execution Started Succesful");
+
 
 	}
 
@@ -136,13 +141,13 @@ public class ReptileProduct {
 	public void terminateBrowser() {
 		// Step : Terminating Browser
 		driver.quit();
-		Reporter.log("Broser Terminated Successfully", true);
+		test.log(Status.INFO, "Browser Terminated Successfully");
 	}
 
-	@Test(groups = "A")
+	@Test
 	public void addProduct() {
 		
-		Reporter.log("Adding Product Started Successfully", true);
+		test = report.createTest("addProduct");
 
 		// Step:5.0: Click on Dog Product
 		driver.findElement(By.xpath("//img[contains(@src,'reptiles_icon')]")).click();
@@ -238,11 +243,11 @@ public class ReptileProduct {
 		
 		System.out.println(driver.getTitle());
 		
-		Reporter.log("Adding Product Finished Successfully", true);
+		test.log(Status.INFO, "Screenshot taken succesfully");
 
 	}
 
-	@Test(groups = "B")
+	@Test
 	
 	public void removeProduct() {
 
@@ -266,7 +271,7 @@ public class ReptileProduct {
 		//Step9: Clicking on Remove
 		driver.findElement(By.xpath("//a[contains(text(),'Remove')]")).click();
 		
-		Reporter.log("Add Product Removed Successfully", true);
+		test.log(Status.INFO,"Add Product Removed Successfully");
 		
 
 	}
