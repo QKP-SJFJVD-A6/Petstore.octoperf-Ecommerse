@@ -12,6 +12,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -28,6 +29,24 @@ public class BaseClass {
 	public ExtentSparkReporter spark;
 	public ExtentReports report;
 	public ExtentTest test;
+
+	@DataProvider
+	public Object[][] registerData() {
+		Object[][] data = new Object[3][3];
+
+		data[0][0] = 101;
+		data[0][1] = "Harry";
+		data[0][2] = "Trainer";
+
+		data[1][0] = 102;
+		data[1][1] = "Suma";
+		data[1][2] = "Testing";
+
+		data[2][0] = 103;
+		data[2][1] = "Manasa";
+		data[2][2] = "Devops";
+		return data;
+	}
 
 	@BeforeSuite
 	public void suiteSetup() {
@@ -94,10 +113,9 @@ public class BaseClass {
 
 		// Maximize the Browser
 		driver.manage().window().maximize();
-
 	}
 
-	@BeforeMethod
+	@BeforeMethod()
 	public void signin() {
 		// Create the Test Information
 		test = report.createTest("signin");

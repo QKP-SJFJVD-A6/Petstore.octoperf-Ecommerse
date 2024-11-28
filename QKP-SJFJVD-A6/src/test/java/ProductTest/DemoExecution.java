@@ -10,11 +10,19 @@ import GenericLibrary.BaseClass;
 //@Listeners(GenericLibrary.Listeners.class)
 public class DemoExecution extends BaseClass {
 
-	@Test
-	public void demoMethodExecution() {
+	@Test(dataProvider = "registerData")
+	public void demoMethodExecution(int id,String name,String dept) {
+
+	
+		System.out.println("-------------");
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(dept);
+		System.out.println("-------------");
+		
 		// Make The TestScript Explicitly Fail
 		// Assert.fail();
-		Assert.assertEquals(false, true);
+		// Assert.assertEquals(false, true);
 		Reporter.log("demoMethodExecution", true);
 
 	}

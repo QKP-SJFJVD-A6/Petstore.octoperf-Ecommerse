@@ -1,344 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[browser launched successfully]]>
+      <![CDATA[demoMethodExecution]]>
     </line>
     <line>
-      <![CDATA[Sign In Execution Started Successfully]]>
+      <![CDATA[demoMethodExecution]]>
     </line>
     <line>
-      <![CDATA[Sign In Done Successfully]]>
-    </line>
-    <line>
-      <![CDATA[----------------ADD PRODUCT----------------]]>
-    </line>
-    <line>
-      <![CDATA[Implicit wait set to 20 seconds.]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on the cats link was successful.]]>
-    </line>
-    <line>
-      <![CDATA[Click the link to view the cat product ID successfully.]]>
-    </line>
-    <line>
-      <![CDATA[The cat product has been successfully placed to the cart.]]>
-    </line>
-    <line>
-      <![CDATA[Enter a specific cat product's quantity number successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Successfully updated cart.]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Proceed to Checkout.]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Confirm the Order.]]>
-    </line>
-    <line>
-      <![CDATA[Thank you, your order has been submitted.]]>
-    </line>
-    <line>
-      <![CDATA[ScreenShot saved at:C:\Users\HP\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out started Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Sign Out Done Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Terminated Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Thank you, your order has been submitted.]]>
-    </line>
-    <line>
-      <![CDATA[Broser Terminated Successfully]]>
+      <![CDATA[demoMethodExecution]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-26T11:20:43 IST" name="Suite-Functionality" finished-at="2024-11-26T11:21:21 IST" duration-ms="38141">
+  <suite started-at="2024-11-28T09:34:16 IST" name="Default suite" finished-at="2024-11-28T09:34:36 IST" duration-ms="20182">
     <groups>
-      <group name="A">
-        <method signature="BirdsProduct.addFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" name="addFirstProduct" class="ProductTest.BirdsProduct"/>
-        <method signature="CatsProduct.addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" name="addFirstProduct" class="ProductTest.CatsProduct"/>
-        <method signature="DogsProduct.addProduct()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" name="addProduct" class="ProductTest.DogsProduct"/>
-        <method signature="FishProduct.addProduct()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" name="addProduct" class="ProductTest.FishProduct"/>
-      </group> <!-- A -->
     </groups>
-    <test started-at="2024-11-26T11:20:43 IST" name="Test2" finished-at="2024-11-26T11:21:02 IST" duration-ms="19062">
-      <class name="ProductTest.CatsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:20:43 IST" name="browserSetup" finished-at="2024-11-26T11:20:52 IST" duration-ms="9180" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-11-28T09:34:16 IST" name="Default test" finished-at="2024-11-28T09:34:36 IST" duration-ms="20182">
+      <class name="ProductTest.DemoExecution">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:15 IST" name="suiteSetup" finished-at="2024-11-28T09:34:16 IST" duration-ms="705" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[browser launched successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:20:52 IST" name="signIn" finished-at="2024-11-26T11:20:57 IST" duration-ms="5021" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign In Execution Started Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Sign In Done Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:20:57 IST" name="addFirstProduct" finished-at="2024-11-26T11:21:01 IST" duration-ms="3785" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[----------------ADD PRODUCT----------------]]>
-            </line>
-            <line>
-              <![CDATA[Implicit wait set to 20 seconds.]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on the cats link was successful.]]>
-            </line>
-            <line>
-              <![CDATA[Click the link to view the cat product ID successfully.]]>
-            </line>
-            <line>
-              <![CDATA[The cat product has been successfully placed to the cart.]]>
-            </line>
-            <line>
-              <![CDATA[Enter a specific cat product's quantity number successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Successfully updated cart.]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Proceed to Checkout.]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Confirm the Order.]]>
-            </line>
-            <line>
-              <![CDATA[Thank you, your order has been submitted.]]>
-            </line>
-            <line>
-              <![CDATA[ScreenShot saved at:C:\Users\HP\git\Petstore.octoperf-Ecommerse\QKP-SJFJVD-A6\.\Screenshots\CatOrderPaySlip.png]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:21:01 IST" name="signOut" finished-at="2024-11-26T11:21:02 IST" duration-ms="805" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign Out started Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Sign Out Done Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:21:02 IST" name="browserTerminate" finished-at="2024-11-26T11:21:02 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Terminated Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserTerminate -->
-      </class> <!-- ProductTest.CatsProduct -->
-    </test> <!-- Test2 -->
-    <test started-at="2024-11-26T11:20:43 IST" name="Test1" finished-at="2024-11-26T11:21:04 IST" duration-ms="20717">
-      <class name="ProductTest.BirdsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:20:43 IST" name="browserSetup" finished-at="2024-11-26T11:20:52 IST" duration-ms="9431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:16 IST" name="browserSetup" finished-at="2024-11-28T09:34:22 IST" duration-ms="5632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:20:52 IST" name="signin" finished-at="2024-11-26T11:20:58 IST" duration-ms="5071" status="PASS">
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:22 IST" name="signin" finished-at="2024-11-28T09:34:25 IST" duration-ms="3692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method signature="addFirstProduct()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:20:58 IST" name="addFirstProduct" finished-at="2024-11-26T11:21:03 IST" duration-ms="4972" status="PASS">
+        <test-method signature="demoMethodExecution(int,java.lang.String,java.lang.String)[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:25 IST" name="demoMethodExecution" data-provider="registerData" finished-at="2024-11-28T09:34:25 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Trainer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[demoMethodExecution]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addFirstProduct -->
-        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:21:03 IST" name="signout" finished-at="2024-11-26T11:21:03 IST" duration-ms="893" status="PASS">
+        </test-method> <!-- demoMethodExecution -->
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:25 IST" name="signout" finished-at="2024-11-28T09:34:26 IST" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:21:03 IST" name="browserTerminate" finished-at="2024-11-26T11:21:04 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:26 IST" name="signin" finished-at="2024-11-28T09:34:30 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="demoMethodExecution(int,java.lang.String,java.lang.String)[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:30 IST" name="demoMethodExecution" data-provider="registerData" finished-at="2024-11-28T09:34:30 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[demoMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoMethodExecution -->
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:30 IST" name="signout" finished-at="2024-11-28T09:34:31 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method is-config="true" signature="signin()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:31 IST" name="signin" finished-at="2024-11-28T09:34:35 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="demoMethodExecution(int,java.lang.String,java.lang.String)[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:35 IST" name="demoMethodExecution" data-provider="registerData" finished-at="2024-11-28T09:34:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manasa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Devops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[demoMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoMethodExecution -->
+        <test-method is-config="true" signature="signout()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:35 IST" name="signout" finished-at="2024-11-28T09:34:35 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:35 IST" name="browserTerminate" finished-at="2024-11-28T09:34:36 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-      </class> <!-- ProductTest.BirdsProduct -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-11-26T11:20:43 IST" name="Test4" finished-at="2024-11-26T11:21:10 IST" duration-ms="27284">
-      <class name="ProductTest.FishProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:20:43 IST" name="browserSetup" finished-at="2024-11-26T11:20:52 IST" duration-ms="8621" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:20:52 IST" name="signIn" finished-at="2024-11-26T11:20:58 IST" duration-ms="6122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:20:58 IST" name="addProduct" finished-at="2024-11-26T11:21:07 IST" duration-ms="9403" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thank you, your order has been submitted.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:21:07 IST" name="signOut" finished-at="2024-11-26T11:21:10 IST" duration-ms="2711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:21:10 IST" name="broserTerminate" finished-at="2024-11-26T11:21:10 IST" duration-ms="366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- broserTerminate -->
-      </class> <!-- ProductTest.FishProduct -->
-    </test> <!-- Test4 -->
-    <test started-at="2024-11-26T11:20:43 IST" name="Test3" finished-at="2024-11-26T11:21:12 IST" duration-ms="28727">
-      <class name="ProductTest.DogsProduct">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:20:43 IST" name="browserSetup" finished-at="2024-11-26T11:20:53 IST" duration-ms="9653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:20:53 IST" name="signIn" finished-at="2024-11-26T11:20:58 IST" duration-ms="5622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:20:58 IST" name="addProduct" finished-at="2024-11-26T11:21:10 IST" duration-ms="11749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:21:10 IST" name="signOut" finished-at="2024-11-26T11:21:12 IST" duration-ms="1464" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:21:12 IST" name="terminateBrowser" finished-at="2024-11-26T11:21:12 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Broser Terminated Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- ProductTest.DogsProduct -->
-    </test> <!-- Test3 -->
-    <test started-at="2024-11-26T11:20:43 IST" name="Test5" finished-at="2024-11-26T11:21:21 IST" duration-ms="38141">
-      <class name="ProductTest.FishProduct">
-        <test-method is-config="true" signature="Suitesetup()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:20:43 IST" name="Suitesetup" finished-at="2024-11-26T11:20:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Suitesetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.FishProduct@1a4927d6]" started-at="2024-11-26T11:21:22 IST" name="suiteTerminateSetup" finished-at="2024-11-26T11:21:22 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.DemoExecution@18271936]" started-at="2024-11-28T09:34:36 IST" name="suiteTerminateSetup" finished-at="2024-11-28T09:34:39 IST" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.FishProduct -->
-      <class name="ProductTest.CatsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:20:43 IST" name="suiteSetup" finished-at="2024-11-26T11:20:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.CatsProduct@55de24cc]" started-at="2024-11-26T11:21:22 IST" name="suiteTerminateSetup" finished-at="2024-11-26T11:21:22 IST" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.CatsProduct -->
-      <class name="ProductTest.DogsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:20:43 IST" name="suiteSetup" finished-at="2024-11-26T11:20:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.DogsProduct@25df00a0]" started-at="2024-11-26T11:21:22 IST" name="suiteTerminateSetup" finished-at="2024-11-26T11:21:22 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.DogsProduct -->
-      <class name="ProductTest.BirdsProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:20:43 IST" name="suiteSetup" finished-at="2024-11-26T11:20:43 IST" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.BirdsProduct@312aa7c]" started-at="2024-11-26T11:21:21 IST" name="suiteTerminateSetup" finished-at="2024-11-26T11:21:22 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.BirdsProduct -->
-      <class name="ProductTest.ReptileProduct">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:20:43 IST" name="suiteSetup" finished-at="2024-11-26T11:20:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:20:43 IST" name="browserSetup" finished-at="2024-11-26T11:20:52 IST" duration-ms="9193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:20:52 IST" name="signIn" finished-at="2024-11-26T11:20:58 IST" duration-ms="6062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addProduct()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:20:58 IST" name="addProduct" finished-at="2024-11-26T11:21:15 IST" duration-ms="16727" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:15 IST" name="signOut" finished-at="2024-11-26T11:21:16 IST" duration-ms="824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:16 IST" name="signIn" finished-at="2024-11-26T11:21:18 IST" duration-ms="1970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="removeProduct()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:18 IST" name="removeProduct" finished-at="2024-11-26T11:21:20 IST" duration-ms="2387" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="signOut()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:20 IST" name="signOut" finished-at="2024-11-26T11:21:21 IST" duration-ms="756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:21 IST" name="terminateBrowser" finished-at="2024-11-26T11:21:21 IST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:ProductTest.ReptileProduct@16150369]" started-at="2024-11-26T11:21:22 IST" name="suiteTerminateSetup" finished-at="2024-11-26T11:21:22 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTerminateSetup -->
-      </class> <!-- ProductTest.ReptileProduct -->
-    </test> <!-- Test5 -->
-  </suite> <!-- Suite-Functionality -->
+      </class> <!-- ProductTest.DemoExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
